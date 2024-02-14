@@ -1,0 +1,47 @@
+.forum {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+
+  background-color: white;
+  color: #242A32;
+  margin: 14px ;
+  border-radius: 15px;
+
+  width: 95%;
+  height: 340px;
+  overflow-y:auto;
+}
+
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 10px;
+
+  background-color: white;
+  color: #242A32;
+  margin: 14px ;
+  border-radius: 15px;
+
+  width: 95%;
+  padding: 100px  ;
+}
+
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+
+  background-color: white;
+  color: #242A32;
+  margin: 14px ;
+  border-radius: 15px;
+
+  width: 95%;
+  padding: 80px  ;
+}
+

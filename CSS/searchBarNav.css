@@ -1,0 +1,41 @@
+.search-box {
+  width: 300px;
+  background: #fff;
+  border-radius: 10px;}
+  .row {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;}
+  input {
+    flex: 1;
+    height: 20px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    color: rgb(86, 86, 86);}
+  button{
+    background:transparent;
+    border: 0;
+    outline: 0;}
+  button .material-symbols-outlined {
+    width: 25px;
+    color: rgb(86, 86, 86);
+    font-size: 25px;
+    cursor: pointer;}
+  ::placeholder {
+    color: rgb(86, 86, 86);}
+  .result-box ul {
+    border-top: 1px solid #999;
+    padding: 15px 10px;}
+  .result-box ul li{  
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: rgb(86, 86, 86);}
+  .result-box ul li:hover {
+    background: #e9f3ff;}
+  .result-box {
+    max-height: 200px;
+    overflow-y: scroll;}
