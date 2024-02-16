@@ -24,8 +24,6 @@ li {
 ::-webkit-scrollbar-button {
   height: 7px;
 }
-
-
 ::-webkit-scrollbar-thumb {
   background-color: #636363;
   border-radius: 10px;
