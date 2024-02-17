@@ -120,6 +120,15 @@ li {
       overflow-y:hidden ;
       padding: 4px 2px 4px 2px;}
 
+      .current a {
+        background-color: white ;
+        color: #242A32 ;
+        border-radius: 5px;
+        overflow-y:hidden ;
+        padding: 8px 6px 8px 6px;
+        
+      }
+
 /* CONTENT PAGE */
 .contentPage {
   display: flex;
@@ -157,3 +166,4 @@ li {
   font-weight: 500;
   
 }
+

@@ -51,19 +51,19 @@ function selectInput(list) {
 
         
       case 'Media and Information Literacy':
-          window.location.href = './HTML/MIL.html'; 
+          window.location.href = './MIL HTML/MIL.html'; 
           break;
 
       case 'Personal Development':
-          window.location.href = './HTML/PD.html'; 
+          window.location.href = './PD HTML/PD.html'; 
           break;
 
       case 'Understanding Culture, Society, and Politics':
-          window.location.href = './HTML/UCSP.html'; 
+          window.location.href = './UCSP HTML/UCSP.html'; 
           break;
 
       case 'Oral Communication':
-          window.location.href = './HTML/OC.html'; 
+          window.location.href = './OC HTML/OC.html'; 
           break;
 
       default:
