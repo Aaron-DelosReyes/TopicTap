@@ -3,7 +3,7 @@
   top: 0; 
   z-index: 1000;
   
-  margin-top: 7px;
+  margin-top: 7px;  
 
   width: 300px;
   background: #fff;
@@ -14,7 +14,7 @@
     padding: 5px 10px;}
   input {
     flex: 1;
-    height: 30px;
+    height: 25px;
     background: transparent;
     border: 0;
     outline: 0;

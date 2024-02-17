@@ -117,3 +117,8 @@ a {
       cursor: pointer;
       text-decoration: underline;}
   
+      
+.dark-mode {
+  background-color: black;
+  color: white;
+}
