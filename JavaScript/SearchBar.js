@@ -39,31 +39,31 @@ function selectInput(list) {
   const selectedKeyword = list.innerHTML;
   switch(selectedKeyword) {
      case 'Earth and Life Science':
-          window.location.href = 'EALS.html'; 
+          window.location.href = '../EALS HTML/EALS.html'; 
           break;
       case 'General Mathematics':
-          window.location.href = 'GM.html';
+          window.location.href = '../GM HTML/GM.html';
           break;
 
       case 'Functions':
-          window.location.href = 'Functions.html';
+          window.location.href = '../HTML/Functions.html';
           break;
 
         
       case 'Media and Information Literacy':
-          window.location.href = 'MIL.html'; 
+          window.location.href = '../HTML/MIL.html'; 
           break;
 
       case 'Personal Development':
-          window.location.href = 'PD.html'; 
+          window.location.href = '../PD HTML/PD.html'; 
           break;
 
       case 'Understanding Culture, Society, and Politics':
-          window.location.href = 'UCSP.html'; 
+          window.location.href = '../HTML/UCSP.html'; 
           break;
 
       case 'Oral Communication':
-          window.location.href = 'OC.html'; 
+          window.location.href = '../HTML/OC.html'; 
           break;
 
       default:

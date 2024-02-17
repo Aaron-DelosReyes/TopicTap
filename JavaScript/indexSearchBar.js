@@ -42,7 +42,7 @@ function selectInput(list) {
           window.location.href = './HTML/EALS.html'; 
           break;
       case 'General Mathematics':
-          window.location.href = './HTML/GM.html';
+          window.location.href = './GM HTML/GM.html';
           break;
 
       case 'Functions':
