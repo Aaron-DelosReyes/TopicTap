@@ -63,7 +63,7 @@ function selectInput(list) {
           break;
 
       case 'Oral Communication':
-          window.location.href = '../HTML/OC.html'; 
+          window.location.href = '../OC HTML/OC.html'; 
           break;
 
       default:
