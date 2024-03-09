@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
+  transition: background-color 0.3s ease;
+
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -55,7 +57,7 @@ li {
       .miniLogo{
         padding: 0px;
         margin: 0px;
-        width: 52px;}
+        height:32px;}
     .nav-bar {
       display: flex;
       flex-direction: row;
@@ -65,7 +67,7 @@ li {
     .subject-title {
       color: white;
       margin: 5px 0px;
-      width: 400px;
+      width: 800px;
       font-size: 20px;}
       
 /* BODY */
@@ -75,7 +77,7 @@ li {
 
   height: 90vh;
   width: 100vw;
-  background-color:#343541;
+  background-color:#343541 ;
   overflow-x: hidden;
 }
 
@@ -84,7 +86,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20vw;
+    width: 24vw;
   }
 
     .floatingPanel {
@@ -95,9 +97,9 @@ li {
       height: 90%;
       width: 95%;
       border-radius: 20px;
-      margin-bottom: 27px;
+      margin-bottom: 20px;
 
-      padding: 20px 10px;
+      padding: 20px 8px;
 
       background-color:#242A32;
       overflow-y:auto;
@@ -106,55 +108,54 @@ li {
     .subject {
       width: 100%;
       margin-bottom: 3px;
-      font-size: 16px;
+      font-size: 13px;
       display: flex;
       align-items: start;
       justify-content: start;
       transition: all 0.2s;
-      padding:2px ;}
+      padding:6px 4px;
+      text-shadow: #ffffff;}
 
     .subject:hover {
       background-color: white ;
       color: #242A32 ;
       border-radius: 5px;
       overflow-y:hidden ;
-      padding: 4px 2px 4px 2px;}
+      font-size: 14px;
+      padding: 10px 5px ;}
 
       .current .subject {
         background-color: white ;
         color: #242A32 ;
         border-radius: 5px;
         overflow-y:hidden ;
-        padding: 6px 4px 6px 4px;
+        padding: 8px 6px 8px 6px;
         
       }
 
 /* CONTENT PAGE */
 .contentPage {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   margin: auto;
   background-color: #343541;
   overflow-x: hidden;
-  height: 100%;
-  min-width: 50%;
 }
-
 
 .ytvideo {
   display: flex;
   align-items: center;
   justify-content: start;
 
+  background-color: #343541;
   color: #242A32;
   margin: 14px ;
   border-radius: 15px;
   border-style: none;
 
-  width:78vw ;
-  height:100%;
-  
+  width: 85vw;
+  height: 85vh;
   
 }
 
@@ -162,11 +163,25 @@ li {
   display: flex;
   justify-content: center;
   align-content: start;
+  text-align: center;
   background-color: #ffffff;
   color: #242A32;
-  padding: 4px;
+  padding: 7px;
   border-radius: 4px;
   font-weight: 500;
+  font-size:14px;
   
 }
 
+.bx-home-alt {
+  font-size: 25px;
+  padding-right: 12px;
+  margin-left: -4px;
+}
+
+button .bx-bulb{
+  color: white;
+  font-size: 25px;
+  padding-right: 12px;
+  margin-left: -4px;
+}
