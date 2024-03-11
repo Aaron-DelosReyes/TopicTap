@@ -31,7 +31,7 @@ li {
   height: 7px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #636363;
+  background-color: #6883a1;
   border-radius: 10px;
 }
 
@@ -73,8 +73,8 @@ li {
     .subject-title {
       color: white;
       margin: 5px 0px;
-      width: 800px;
-      font-size: 20px;}
+      width: 100%;
+      font-size: 17px;}
       
 /* BODY */
 .body {

@@ -21,7 +21,7 @@ li {
   margin-top: 10px;}
 
 ::-webkit-scrollbar {
-  width: 4px;
+  width: 2px;
 }
 ::-webkit-scrollbar-button {
   height: 7px;
@@ -67,8 +67,8 @@ li {
     .subject-title {
       color: white;
       margin: 5px 0px;
-      width: 800px;
-      font-size: 20px;}
+      width: 100%; 
+      font-size: 17px;}
       
 /* BODY */
 .body {
@@ -117,16 +117,16 @@ li {
       text-shadow: #ffffff;}
 
     .subject:hover {
-      background-color: white ;
-      color: #242A32 ;
+      background-color: #585858 ;
+      color: #ffffff ;
       border-radius: 5px;
       overflow-y:hidden ;
       font-size: 14px;
       padding: 10px 5px ;}
 
       .current .subject {
-        background-color: white ;
-        color: #242A32 ;
+        background-color:#585858 ;
+        color: #ffffff ;
         border-radius: 5px;
         overflow-y:hidden ;
         padding: 8px 6px 8px 6px;
@@ -164,7 +164,7 @@ li {
   justify-content: center;
   align-content: start;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #f1f1f1;
   color: #242A32;
   padding: 7px;
   border-radius: 4px;
