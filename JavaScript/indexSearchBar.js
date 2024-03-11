@@ -51,7 +51,28 @@ let availableKeywords = [
     'Origin and Nature of Waves',  
     
   'General Mathematics',
-    'Functions',
+    'Repersentation of Functions',
+    'Evaluation of Functions',
+    'Operations on Functions',
+    'Inverse Functions',
+    'Rational Equations and Inequalities',
+    'Rational Functions',
+    'Graphing Rational Functions',
+    'Exponential Function',
+    'Exponential Models',
+    'Logarithmic Functions and Their Graphs',
+    'Laws of Logarithms',
+    'Exponential and Logarithmic Equations and Inequalities',
+    'Simple Interest',
+    'Compound Interest',
+    'Simple Annuity ',
+    'General Annuity',
+    'Stocks and Bonds',
+    'Introduction to Logic',
+    'Propositions and Symbols',
+    'Truth Tables',
+    'Forms of Conditional Propositions',
+    'Tautologies and Fallacies ',
 
   'Media and Information Literacy',
     'Media Literacy',
@@ -192,13 +213,203 @@ function selectInput(list) {
      case 'Earth and Life Science':
           window.location.href = './EALS HTML/EALS.html'; 
           break;
+
+            case 'The Great Chain of Origins':
+                window.location.href = './EALS HTML/The-Great-Chain-of-Origins.html'; 
+                break;
+            case 'A Survey of the Solar System':
+                window.location.href = './EALS HTML/A-Survey-of-the-Solar-System.html'; 
+                break;
+            case 'The Story of Planet Building':
+                window.location.href = './EALS HTML/The-Story-of-Planet-Building.html'; 
+                break;
+            case 'The Physical Science Perspective':
+                window.location.href = './EALS HTML/The-Physical-Science-Perspective.html'; 
+                break;
+            case 'The Environmental Perspective':   
+                window.location.href = './EALS HTML/The-Environmental-Perspective.html'; 
+                break;
+            case 'Models and Systems':
+                window.location.href = './EALS HTML/Models-and-Systems.html'; 
+                break;
+            case 'Earths Planetary Structure':
+                window.location.href = './EALS HTML/Earths-Planetary-Structure.html'; 
+                break;
+            case 'Minerals':
+                window.location.href = './EALS HTML/Minerals.html'; 
+                break;
+            case 'Rocks':
+                window.location.href = './EALS HTML/Rocks.html'; 
+                break;
+            case 'Nature of Exogenic Processes':
+                window.location.href = './EALS HTML/Nature-of-Exogenic-Processes.html'; 
+                break;
+            case 'Weathering':
+                window.location.href = './EALS HTML/Weathering.html'; 
+                break;
+            case 'Variability in Weathering':
+                window.location.href = './EALS HTML/Variability-in-Weathering.html'; 
+                break;
+            case 'Mass Wasting':
+                window.location.href = './EALS HTML/Mass-Wasting.html'; 
+                break;
+            case 'Landforms and Geomorphology':
+                window.location.href = './EALS HTML/Landforms-and-Geomorphology.html'; 
+                break;
+            case 'Tectonic Forces, Rock Structure, and Landforms':
+                window.location.href = './EALS HTML/Tectonic-Forces,-Rock-Dtructure,-and-Landforms.html'; 
+                break;
+            case 'Earthquakes':
+                window.location.href = './EALS HTML/Earthquakes.html'; 
+                break;
+            case 'Igneous Processes and Landforms':
+                window.location.href = './EALS HTML/Igneous-Processes-and-Landforms.html'; 
+                break;
+            case 'Distribution of Endogenic Processes':
+                window.location.href = './EALS HTML/Distribution-of-Endogenic-Processes.html'; 
+                break;
+            case 'Plate Tectonics':
+                window.location.href = './EALS HTML/Plate-Tectonics.html'; 
+                break;
+            case 'Faults and Earthquakes':
+                window.location.href = './EALS HTML/Faults-and-Earthquakes.html'; 
+                break;
+            case 'Earthquake Waves':
+                window.location.href = './EALS HTML/Earthquake-Waves.html'; 
+                break;
+            case 'Earthquake Size and Characteristics':
+                window.location.href = './EALS HTML/Earthquake-Size-and-Characteristics.html'; 
+                break;
+            case 'Ground Motion and Failure During Earthquakes':
+                window.location.href = './EALS HTML/Ground-Motion-and-Failure-During-Earthquakes.html'; 
+                break;
+            case 'Volcanic Hazards':
+                window.location.href = './EALS HTML/Volcanic-Hazards.html'; 
+                break;
+            case 'Predicting Volcanic Eruptions':
+                window.location.href = './EALS HTML/Predicting-Volcanic-Eruptions.html'; 
+                break;
+            case 'Mitigation of Damage':
+                window.location.href = './EALS HTML/Mitigation-of-Damage.html'; 
+                break;
+            case 'Causes of Landslides':
+                window.location.href = './EALS HTML/Causes-of-Landslides.html'; 
+                break;
+            case 'Types of Downslope Movement':
+                window.location.href = './EALS HTML/Types-of-Downslope-Movement.html'; 
+                break;
+            case 'Hazards Related to Landslides':
+                window.location.href = './EALS HTML/Hazards-Related-to-Landslides.html'; 
+                break;
+            case 'Mitigation of Damages from Landslides':
+                window.location.href = './EALS HTML/Mitigation-of-Damages-from-Landslides.html'; 
+                break;
+            case 'Hurricane Formation and Movement':
+                window.location.href = './EALS HTML/Hurricane-Formation-and-Movement.html'; 
+                break;
+            case 'Storm Damages':
+                window.location.href = './EALS HTML/Storm-Damages.html'; 
+                break;
+            case 'Managing Future Damages':
+                window.location.href = './EALS HTML/Managing-Future-Damages.html'; 
+                break;
+            case 'Flooding Processes':
+                window.location.href = './EALS HTML/Flooding-Processes.html'; 
+                break;
+            case 'Flood Intensity':
+                window.location.href = './EALS HTML/Flood-Intensity.html'; 
+                break;
+            case 'Mudflows, Debris Flows, and Other Flood-Related Hazards':
+                window.location.href = './EALS HTML/Mudflows,-Debris-Flows,-and-Other-Flood-Related-Hazards.html'; 
+                break;
+            case 'Erosion of Gently Sloping Coasts and Barrier Islands':
+                window.location.href = './EALS HTML/Erosion-of-Gently-Sloping-Coasts-and-Barrier-Islands.html'; 
+                break;
+            case 'Sea-Cliff Erosion':
+                window.location.href = './EALS HTML/Sea-cliff-Erosion.html'; 
+                break;
+            case 'Human Intervention and Mitigation of Coastal Change':
+                window.location.href = './EALS HTML/Human-Intervention-and-Mitigation-of-Coastal-Change.html'; 
+                break;
+            case 'The Coastal Zone':
+                window.location.href = './EALS HTML/The-Coastal-Zone.html'; 
+                break;
+            case 'Origin and Nature of Waves':
+                window.location.href = './EALS HTML/Origin-and-Nature-of-Waves.html'; 
+                break;
+        
+        
       case 'General Mathematics':
           window.location.href = './GM HTML/GM.html';
           break;
 
-      case 'Functions':
-          window.location.href = './HTML/Functions.html';
-          break;
+            case 'Representation of Functions':
+                    window.location.href = './GM HTML/RationalEquationsAndInequalities.html'; 
+                    break;
+            case 'Evaluation of Functions':
+                    window.location.href = './GM HTML/RationalEquationsAndInequalities.html'; 
+                    break;
+            case 'Operations on Functions':
+                    window.location.href = './GM HTML/RationalFunctions.html'; 
+                    break;
+            case 'Inverse Functions':
+                    window.location.href = './GM HTML/GraphingRationalFunctions.html'; 
+                    break;
+            case 'Rational Equations and Inequalities ':
+                    window.location.href = './GM HTML/ExponentialFunction.html'; 
+                    break;
+            case 'Rational Functions':
+                    window.location.href = './GM HTML/ExponentialModels.html'; 
+                    break;
+                    
+            case 'Graphing Rational Functions':
+                    window.location.href = './GM HTML/ExponentialModels.html'; 
+                    break;                    
+            case 'Exponential Functions':
+                    window.location.href = './GM HTML/LogarithmicFunctionsAndTheirGraphs.html'; 
+                    break;
+            case 'Exponential Models':
+                    window.location.href = './GM HTML/LawsOfLogarithms.html'; 
+                    break;
+            case 'Exponential and Logarithmic Equations and Inequalities':
+                    window.location.href = './GM HTML/ExponentialAndLogarithmicEquationsAndInequalities.html'; 
+                    break;
+
+
+
+
+                    
+            case 'Simple Interest':
+                    window.location.href = './GM HTML/SimpleInterest.html'; 
+                    break;
+            case 'Compound Interest':
+                    window.location.href = './GM HTML/CompoundInterest.html'; 
+                    break;
+            case 'Simple Annuity':
+                    window.location.href = './GM HTML/SimpleAnnuity.html'; 
+                    break;
+            case 'General Annuity':
+                    window.location.href = './GM HTML/GeneralAnnuity.html'; 
+                    break;
+            case 'Stocks and Bonds':
+                    window.location.href = './GM HTML/StocksAndBonds.html'; 
+                    break;
+            case 'Introduction to Logic':
+                    window.location.href = './GM HTML/Introduction.html'; 
+                    break;
+            case 'Propositions and Symbols':
+                    window.location.href = './GM HTML/PropositionsAndSymbols.html'; 
+                    break;
+            case 'Truth Tables':
+                    window.location.href = './GM HTML/TruthTables.html'; 
+                    break;
+            case 'Forms of Conditional Propositions':
+                    window.location.href = './GM HTML/FormsOfConditionalPropositions.html'; 
+                    break;
+            case 'Tautologies and Fallacies':
+                    window.location.href = './GM HTML/TautologiesAndFallacies.html'; 
+                    break;
+
 
         
       case 'Media and Information Literacy':
