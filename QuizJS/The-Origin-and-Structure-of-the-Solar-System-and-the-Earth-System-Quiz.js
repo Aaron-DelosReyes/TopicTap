@@ -69,17 +69,7 @@ let questions = [
   ]
  },
 
- {
-  numb: 7,
-  question: "lorem lore lorem sadoasd hasuhd isahdghashdv",
-
-  options: [
-    "Option 1",
-    "option 2",
-    "option 3",
-    "aaron"
- ]
-},
+ 
 ];
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
