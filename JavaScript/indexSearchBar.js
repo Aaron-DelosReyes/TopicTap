@@ -51,28 +51,28 @@ let availableKeywords = [
     'Origin and Nature of Waves',  
     
   'General Mathematics',
-    'Repersentation of Functions',
+    'Representation of Functions',
     'Evaluation of Functions',
     'Operations on Functions',
     'Inverse Functions',
     'Rational Equations and Inequalities',
     'Rational Functions',
     'Graphing Rational Functions',
-    'Exponential Function',
+    'Exponential Functions',
     'Exponential Models',
     'Logarithmic Functions and Their Graphs',
     'Laws of Logarithms',
     'Exponential and Logarithmic Equations and Inequalities',
     'Simple Interest',
     'Compound Interest',
-    'Simple Annuity ',
+    'Simple Annuity',
     'General Annuity',
     'Stocks and Bonds',
     'Introduction to Logic',
     'Propositions and Symbols',
     'Truth Tables',
     'Forms of Conditional Propositions',
-    'Tautologies and Fallacies ',
+    'Tautologies and Fallacies',
 
   'Media and Information Literacy',
     'Media Literacy',
@@ -344,70 +344,70 @@ function selectInput(list) {
           break;
 
             case 'Representation of Functions':
-                    window.location.href = './GM HTML/RationalEquationsAndInequalities.html'; 
+                    window.location.href = './GM HTML/Representation-of-Functions.html'; 
                     break;
             case 'Evaluation of Functions':
-                    window.location.href = './GM HTML/RationalEquationsAndInequalities.html'; 
+                    window.location.href = './GM HTML/Evaluation-of-Functions.html'; 
                     break;
             case 'Operations on Functions':
-                    window.location.href = './GM HTML/RationalFunctions.html'; 
+                    window.location.href = './GM HTML/Operations-on-Functions.html'; 
                     break;
             case 'Inverse Functions':
-                    window.location.href = './GM HTML/GraphingRationalFunctions.html'; 
+                    window.location.href = './GM HTML/Inverse-Functions.html'; 
                     break;
-            case 'Rational Equations and Inequalities ':
-                    window.location.href = './GM HTML/ExponentialFunction.html'; 
+            case 'Rational Equations and Inequalities':
+                    window.location.href = './GM HTML/Rational-Equations-and-Inequalities.html'; 
                     break;
             case 'Rational Functions':
-                    window.location.href = './GM HTML/ExponentialModels.html'; 
+                    window.location.href = './GM HTML/Rational-Functions.html'; 
                     break;
-                    
             case 'Graphing Rational Functions':
-                    window.location.href = './GM HTML/ExponentialModels.html'; 
+                    window.location.href = './GM HTML/Graphing-Rational-Functions.html'; 
                     break;                    
             case 'Exponential Functions':
-                    window.location.href = './GM HTML/LogarithmicFunctionsAndTheirGraphs.html'; 
+                    window.location.href = './GM HTML/Exponential-Function.html'; 
                     break;
             case 'Exponential Models':
-                    window.location.href = './GM HTML/LawsOfLogarithms.html'; 
+                    window.location.href = './GM HTML/Exponential-Models.html'; 
+                    break;
+            case 'Logarithmic Functions and Their Graphs':
+                    window.location.href = './GM HTML/Logarithmic-Functions-and-Their-Graphs.html'; 
+                    break;
+            case 'Laws of Logarithms':
+                    window.location.href = './GM HTML/Laws-of-Logarithms.html'; 
                     break;
             case 'Exponential and Logarithmic Equations and Inequalities':
-                    window.location.href = './GM HTML/ExponentialAndLogarithmicEquationsAndInequalities.html'; 
+                    window.location.href = './GM HTML/Exponential-and-Logarithmic-Equations-and-Inequalities.html'; 
                     break;
-
-
-
-
-                    
             case 'Simple Interest':
-                    window.location.href = './GM HTML/SimpleInterest.html'; 
+                    window.location.href = './GM HTML/Simple-Interest.html'; 
                     break;
             case 'Compound Interest':
-                    window.location.href = './GM HTML/CompoundInterest.html'; 
+                    window.location.href = './GM HTML/Compound-Interest.html'; 
                     break;
             case 'Simple Annuity':
-                    window.location.href = './GM HTML/SimpleAnnuity.html'; 
+                    window.location.href = './GM HTML/Simple-Annuity.html'; 
                     break;
             case 'General Annuity':
-                    window.location.href = './GM HTML/GeneralAnnuity.html'; 
+                    window.location.href = './GM HTML/General-Annuity.html'; 
                     break;
             case 'Stocks and Bonds':
-                    window.location.href = './GM HTML/StocksAndBonds.html'; 
+                    window.location.href = './GM HTML/Stocks-and-Bonds.html'; 
                     break;
             case 'Introduction to Logic':
-                    window.location.href = './GM HTML/Introduction.html'; 
+                    window.location.href = './GM HTML/Introduction-to-Logic.html'; 
                     break;
             case 'Propositions and Symbols':
-                    window.location.href = './GM HTML/PropositionsAndSymbols.html'; 
+                    window.location.href = './GM HTML/Proposition-and-Symbols.html'; 
                     break;
             case 'Truth Tables':
-                    window.location.href = './GM HTML/TruthTables.html'; 
+                    window.location.href = './GM HTML/Truth-Tables.html'; 
                     break;
             case 'Forms of Conditional Propositions':
-                    window.location.href = './GM HTML/FormsOfConditionalPropositions.html'; 
+                    window.location.href = './GM HTML/Forms-Of-Conditional-Propositions.html'; 
                     break;
             case 'Tautologies and Fallacies':
-                    window.location.href = './GM HTML/TautologiesAndFallacies.html'; 
+                    window.location.href = './GM HTML/Tautologies-and-Fallacies.html'; 
                     break;
 
 
@@ -432,9 +432,4 @@ function selectInput(list) {
           window.location.href = 'generic_page.html';
           break;
   }   
-}
-
-function myFunction() {
-  var element = document.body;
-  element.classList.toggle("dark-mode");
 }
