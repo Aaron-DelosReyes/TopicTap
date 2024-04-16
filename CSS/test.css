@@ -9,7 +9,7 @@
     box-sizing: border-box; 
     line-height: 1.2;}
 body {
-  background: #343541;
+  background: rgb(230, 230, 230);
   color: #ffffff;}
 a {
   text-decoration: none;
@@ -44,10 +44,9 @@ hr {
   justify-content:start;
   align-items: center;
 
-  width: 100%;
   height: 50px;
 
-  background: #242A32;
+  background: #2D5987;
 }
 
     .nav_icon {
@@ -72,24 +71,6 @@ hr {
     .subject-title {
       margin: auto;
       width: 100%;
-    
-    }
-
-    .go-back {
-      background-color: white;
-      color: #242A32;
-      padding: 3px 5px;
-      border-radius: 5px;
-      margin: 0px 4px ;
-      transition: all 0.3s;
-      
-    }
-    .go-back:hover {
-      text-decoration: underline;
-    }
-    
-    .bx-left-arrow-alt {
-      text-align: center;
     }
 
     .nav-bar {
@@ -115,7 +96,7 @@ hr {
     justify-content: center;
     width: 23%;
 
-    background-color: #343541;
+    background-color: rgb(230, 230, 230);
 
     
 
@@ -130,7 +111,7 @@ hr {
       height: 98%;
       
 
-      background-color: #242A32;
+      background-color: #fff;
 
       margin: 10px;
       margin-top: 25px;
@@ -150,19 +131,20 @@ hr {
       justify-content: start;
       transition: all 0.2s;
       padding:6px 4px;
+      color: #343541;
       text-shadow: #ffffff;}
 
     .subject:hover {
-      background-color: #585858 ;
-      color: #ffffff ;
+      background-color: #e9f3ff ;
+      color: #636363 ;
       border-radius: 5px;
       overflow-y:hidden ;
       font-size: 14px;
       padding: 10px 5px ;}
 
       .current .subject {
-        background-color:#585858 ;
-        color: #ffffff ;
+        background-color:#e9f3ff ;
+        color: #242A32 ;
         border-radius: 5px;
         overflow-y:hidden ;
         padding: 8px 6px 8px 6px;}
@@ -172,8 +154,8 @@ hr {
         justify-content: center;
         align-content: start;
         text-align: center;
-        background-color: #f1f1f1;
-        color: #242A32;
+        background-color: #2D5987;
+        color: #fff;
         padding: 7px;
         border-radius: 4px;
         font-weight: 500;
@@ -185,7 +167,7 @@ hr {
   .content {
     display:flex; 
     flex-direction: column;
-    background-color: #343541;
+    background-color: rgb(230, 230, 230);
 
     margin: 10px;
     
@@ -233,10 +215,9 @@ hr {
 
       width:1010px;
 
-      background-color: #242A32;
+      background-color: #fff;
       padding: 15px;
       border-radius: 15px;
-
 
 
     }
@@ -259,24 +240,10 @@ hr {
 
       }
 
-      h1, h2, h3, h4, .ul, .ol, p, strong {
-        color: #fff;
-        padding: 3px;
-        line-height: 27px; 
+      h1, h2, h3, .ul, .ol, p {
+        color: #242A32;
 
-       }
-
-       h1, h2, h3, h4 {
-        line-height: normal;
-        padding: 0;
-        }
-
-        hr {
-          border-width: 1px;
-          border-style: solid;
-          color: #2d373e;
-          width: 100%;
-        }
+      }
 
   .ul {
       list-style-type: disc;
@@ -289,17 +256,14 @@ hr {
       padding-left: 20px;
       margin-top: 10px;
     }
-  .li {
-    margin-left: 4px;
-  }
 
     .quiz {
       display: flex;
       justify-content: center;
       align-content: start;
       text-align: center;
-      background-color: #f1f1f1;
-      color: #343541;
+      background-color: #2D5987;
+      color: #ffffff;
       padding: 7px;
       border-radius: 4px;
       font-weight: 500;
@@ -313,8 +277,8 @@ hr {
     justify-content: center;
     align-content: start;
     text-align: center;
-    background-color: #585858;
-    color: #ffffff;
+    background-color: #e9f3ff;
+    color: #242A32;
     padding: 9px 7px;
     border-radius: 4px;
     font-weight: 500;
@@ -334,6 +298,20 @@ hr {
   
   }
   
+  .go-back {
+    background-color: white;
+    color: #242A32;
+    padding: 3px 5px;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  .go-back:hover {
+    text-decoration: underline;
+  }
+  
+  .bx-left-arrow-alt {
+    text-align: center;
+  }
   
   
   
@@ -505,8 +483,7 @@ hr {
   
   section .option_list{
       padding: 20px 0px;
-      display: flex; 
-      flex-direction: column;
+      display: block;   
   }
   
   section .option_list .option{
@@ -514,7 +491,7 @@ hr {
       border: 1px solid #84c5fe;
       border-radius: 5px;
       padding: 8px 15px;
-      font-size: 15px;
+      font-size: 17px;
       margin-bottom: 15px;
       cursor: pointer;
       transition: all 0.3s ease;
@@ -549,20 +526,17 @@ hr {
       pointer-events: none;
   }
   
-  section .option_list .option .icon {
-    height: 26px;
-    width: 26px;
-    border: 2px solid transparent;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 13px;
-    pointer-events: none;
-    transition: all 0.3s ease;
-    line-height: 26px; /* Ensure icon remains centered vertically */
+  section .option_list .option .icon{
+      height: 26px;
+      width: 26px;
+      border: 2px solid transparent;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 13px;
+      pointer-events: none;
+      transition: all 0.3s ease;
+      line-height: 24px;
   }
-  
-
-
   .option_list .option .icon.tick{
       color: #23903c;
       border-color: #23903c;
@@ -744,5 +718,3 @@ hr {
   .quiz_box header .timer {
     background-color: #e9f3ff;
   } 
-
-  

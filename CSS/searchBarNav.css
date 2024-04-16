@@ -1,61 +1,85 @@
 .search-box {
-  position:fixed  ;
-  top: 0; 
+  position: absolute; /* Change position to absolute */
+  top: 0;
   z-index: 1000;
-  
-  margin-top: 7px;  
-
   width: 300px;
   background: #fff;
-  border-radius: 10px;}
-  .row {
-    display: flex;
-    align-items: center;
-    padding: 5px 10px;}
-  input {
-    flex: 1;
-    height: 25px;
-    background: transparent;
-    border: 0;
-    outline: 0;
-    font-size: 13px;
-    color: rgb(86, 86, 86);}
-  button{
-    background:transparent;
-    border: 0;
-    outline: 0;}
-  button .bx{
-    width: 35px;
-    color: rgb(86, 86, 86);
-    font-size: 20px;
-    cursor: pointer;}
-  ::placeholder {
-    color: rgb(86, 86, 86);}
-  .result-box ul {
-    border-top: 1px solid #999;
-    padding: 15px 10px;}
-  .result-box ul li{  
-    list-style: none;
-    border-radius: 3px;
-    padding: 10px 5px;
-    cursor: pointer;
-    color: rgb(86, 86, 86);
-    font-size: 15px;}
-  .result-box ul li:hover {
-    background: #e9f3ff;}
-  .result-box {
-    max-height: 200px;
-    overflow-y: scroll;}
+  border-radius: 10px;
+  margin-top: 7px;
+}
 
-    ::-webkit-scrollbar {
-      width: 4px;
-    }
-    ::-webkit-scrollbar-button {
-      height: 7px;
-    }
-    
-    
-    ::-webkit-scrollbar-thumb {
-      background-color: #aeaeae;
-      border-radius: 10px;
-    } 
+/* Add this wrapper class to your header to use flexbox */
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+input {
+  flex: 1;
+  height: 25px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 13px;
+  color: rgb(86, 86, 86);
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+button .bx {
+  width: 35px;
+  color: rgb(86, 86, 86);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: rgb(86, 86, 86);
+}
+
+.result-box ul {
+  border-top: 1px solid #999;
+  padding: 15px 10px;
+}
+
+.result-box ul li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 10px 5px;
+  cursor: pointer;
+  color: rgb(86, 86, 86);
+  font-size: 15px;
+}
+
+.result-box ul li:hover {
+  background: #e9f3ff;
+}
+
+.result-box {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+/* Customizing scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-button {
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #aeaeae;
+  border-radius: 10px;
+}
