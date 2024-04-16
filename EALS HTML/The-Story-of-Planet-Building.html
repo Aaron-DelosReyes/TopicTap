@@ -3,144 +3,220 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TopicTap - Earth and Life Science</title>
+  <title>Document</title>
+
   <link rel="stylesheet" type="text/css" href="../CSS/searchBarNav.css">
   <link rel="stylesheet" href="../CSS/subPagesDM.css" id="theme">
   
-
-
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body>
-  
+
 <div class="canvas">
+    <div class="header">
 
-<div class="header ">
-    
-    <div class="navLogo"> 
-      <a href="../index.html">
-        <img src="../Images/Topic-Tap-Logo-Icon.png" alt="navLogo" class="miniLogo"> 
-      </a>
-    </div> 
-    <a href="../index.html">
-      <i class='bx bx-home-alt'></i>
-    </a>
-    
-    <button onclick="toggleTheme()" >
-      <i class='bx bx-bulb'></i>
-
-
-    </button>
-
-  <div class="subject-title"> | The Story of Planet Building
-     </div> 
-     
-  <div class="nav-bar">
-    <div class="search-box">
-      <div class="row"> 
-        <input type="text" id="input-box" placeholder="Type the SHS core subjects here" autocomplete="off"> <button> 
-          <i class='bx bx-search-alt-2'></i>
-
-        </button>
+      <div class="nav_logo">
+        <a href="../index.html">
+          <img src="../Images/Topic-Tap-Logo-Icon.png" alt="TopicTapLogo" class="nav_icon">
+        </a>
       </div>
-        <div class="result-box">
 
+      <a href="../index.html">
+        <i class='bx bx-home-alt'></i>
+      </a>
+      
+      <button onclick="toggleTheme()" >
+        <i class='bx bx-bulb'></i> </button>
+
+        <div class="subject-title"> | The Story of Planet Building
+        </div> 
+
+
+        <div class="nav-bar">
+          <div class="search-box">
+            <div class="row"> 
+              <input type="text" id="input-box" placeholder="Type the SHS core subjects here" autocomplete="off"> <button> 
+                <i class='bx bx-search-alt-2'></i>
+      
+              </button>
+            </div>
+              <div class="result-box">
+      
+              </div>
+          </div>
         </div>
     </div>
-  </div>
 
-</div>
-
-
-<div class="body">
     
-  <div class="navPanel">
-    <div class="floatingPanel">
-      <ul>
-        <hr>
-        <li class="ad-rcs">The Origin and Structure of the Solar System and The Earth System </li>
-          <li class=""> <a href="./The-Great-Chain-of-Origins.html" class="subject"> The Great Chain of Origins</a></li>
-          <li class=""> <a href="./A-Survey-of-the-Solar-System.html" class="subject"> A Survey of the Solar System</a></li>
-          <li class="current"> <a href="./The-Story-of-Planet-Building.html" class="subject"> The Story of Planet Building</a></li>
-          <li class=""> <a href="./The-Physical-Science-Perspective.html" class="subject"> The Physical Science Perspective</a></li>
-          <li class=""> <a href="./The-Environmental-Perspective.html" class="subject"> The Environmental Perspective</a></li>
-          <li class=""> <a href="./Models-and-Systems.html" class="subject"> Models and Systems</a></li>
 
-        <li class="ad-rcs">Earth Materials and Resources </li>
-          <li class=""> <a href="./Earth's-Planetary-Structure.html" class="subject"> Earth's Planetary Structure</a></li>
-          <li class=""> <a href="./Minerals.html" class="subject"> Minerals</a></li>
-          <li class=""> <a href="./Rocks.html" class="subject"> Rocks</a></li>
+    <div class="body">
 
-        <li class="ad-rcs">Geologic Processes on the Earth's Surface </li>
-          <li class=""> <a href="./Nature-of-Exogenic-Processes.html" class="subject"> Nature of Exogenic Processes</a></li>
-          <li class=""> <a href="./Weathering.html" class="subject"> Weathering</a></li>
-          <li class=""> <a href="./Variability-in-Weathering.html" class="subject"> Variability in Weathering</a></li>
-          <li class=""> <a href="./Mass-Wasting.html" class="subject"> Mass Wasting</a></li>
-
-        <li class="ad-rcs">Geologic Processes Within the Earth's Surface </li>
-          <li class=""> <a href="./Landforms-and-Geomorphology.html" class="subject"> Landforms and Geomorphology</a></li>
-          <li class=""> <a href="./Tectonic-Forces,-Rock-Structure,-and-Landforms.html" class="subject"> Tectonic Forces, Rock Structure, and Landforms</a></li>
-          <li class=""> <a href="./Earthquakes.html" class="subject"> Earthquakes</a></li>
-          <li class=""> <a href="./Igneous-Processes-and-Landforms.html" class="subject"> Igneous Processes and Landforms</a></li>
-          <li class=""> <a href="./Distribution-of-Endogenic-Processes.html" class="subject"> Distribution of Endogenic Processes</a></li>
-
-        <li class="ad-rcs">Deformation of the Crust</li>
-          <li class=""> <a href="./Plate-Tectonics.html" class="subject">Plate Tectonics</a></li>
-
-        <li class="ad-rcs">Geologic Processes and Hazards</li>
-          <li class=""> <a href="./Faults-and-Earthquakes.html" class="subject">Faults and Earthquakes</a></li>
-          <li class=""> <a href="./Earthquake-Waves.html" class="subject">Earthquake Waves</a></li>
-          <li class=""> <a href="./Earthquake-Size-and-Characteristics.html" class="subject">Earthquake Size and Characteristics</a></li>
-          <li class=""> <a href="./Ground-Motion-and-Failure-During-Earthquakes.html" class="subject">Ground Motion and Failure During Earthquakes</a></li>
-          <li class=""> <a href="./Volcanic-Hazards.html" class="subject">Volcanic Hazards</a></li>
-          <li class=""> <a href="./Predicting-Volcanic-Eruptions.html" class="subject">Predicting Volcanic Eruptions</a></li>
-          <li class=""> <a href="./Mitigation-of-Damage.html" class="subject">Mitigation of Damage</a></li>
-          <li class=""> <a href="./Causes-of-Landslides.html" class="subject">Causes of Landslides</a></li>
-          <li class=""> <a href="./Types-of-Downslope-Movement.html" class="subject">Types of Downslope Movement</a></li>
-          <li class=""> <a href="./Hazards-Related-to-Landslides.html" class="subject">Hazards Related to Landslides</a></li>
-          <li class=""> <a href="./Mitigation-of-Damages-from-Landslides.html" class="subject">Mitigation of Damages from Landslides</a></li>
-          
-        <li class="ad-rcs">Hydrometeorological Phenomena and Hazards</li>
-          <li class=""> <a href="./Hurricane-Formation-and-Movement.html" class="subject">Hurricane Formation and Movement</a></li>
-          <li class=""> <a href="./Storm-Damages.html" class="subject">Storm Damages</a></li>
-          <li class=""> <a href="./Managing-Future-Damages.html" class="subject">Managing Future Damages</a></li>
-          <li class=""> <a href="./Flooding-Processes.html" class="subject">Flooding Processes</a></li>
-          <li class=""> <a href="./Flood-Intensity.html" class="subject">Flood Intensity</a></li>
-          <li class=""> <a href="./Mudflows,-Debris-Flows,-and-Other-Flood-Related-Hazards.html" class="subject">Mudflows, Debris Flows, and Other Flood-Related Hazards</a></li>
+      <div class="nav">
         
-        <li class="ad-rcs">Marine and Coastal Processes</li>
-          <li class=""> <a href="./Erosion-of-Gently-Sloping-Coasts-and-Barrier-Islands.html" class="subject">Erosion of Gently Sloping Coasts and Barrier Islands</a></li>
-          <li class=""> <a href="./Sea-Cliff-Erosion.html" class="subject">Sea-Cliff Erosion</a></li>
-          <li class=""> <a href="./Human-Intervention-and-Mitigation-of-Coastal-Change.html" class="subject">Human Intervention and Mitigation of Coastal Change</a></li>
-          <li class=""> <a href="./The-Coastal-Zone.html" class="subject">The Coastal Zone</a></li>
-          <li class=""> <a href="./Origin-and-Nature-of-Waves.html" class="subject">Origin and Nature of Waves</a></li>
+        <div class="nav_bar">
+          <ul>
+            <hr>
+            <li class="ad-rcs">The Origin and Structure of the Solar System and The Earth System </li>
+            <li class=""> <a href="./The-Great-Chain-of-Origins.html" class="subject"> The Great Chain of Origins</a></li>
+            <li class=""> <a href="./A-Survey-of-the-Solar-System.html" class="subject"> A Survey of the Solar System</a></li>
+            <li class="current"> <a href="./The-Story-of-Planet-Building.html" class="subject"> The Story of Planet Building</a></li>
+            <li class=""> <a href="./The-Physical-Science-Perspective.html" class="subject"> The Physical Science Perspective</a></li>
+            <li class=""> <a href="./The-Environmental-Perspective.html" class="subject"> The Environmental Perspective</a></li>
+            <li class=""> <a href="./Models-and-Systems.html" class="subject"> Models and Systems</a></li>
+            <li class=""> <a href="./The-Origin-and-Structure-of-the-Solar-System-and-the-Earth-System-Quiz.html" class="quiz"> Assessment</a></li>
 
-        <hr>
-        <li class="ad-rcs">Additional Resources</li>
-          <li class=""> <a href="./A-Year-of-Life-Science-in-3-Minutes.html" class="subject"> A Year of Life Science in 3 Minutes</a></li>
-          <li class=""> <a href="./The-History-of-Life-on-Earth.html" class="subject"> The History of Life on Earth</a></li>
-          <li class=""> <a href="https://byjus.com/physics/earth-science/" target="_blank" class="subject"> What is Earth Science? - Byju's </a></li>
-          <li class=""> <a href="https://news.uchicago.edu/explainer/origin-life-earth-explained" target="_blank" class="subject"> The origin of life on Earth, explained - Uchicago news</a></li>
-          <li class=""> <a href="https://en.wikipedia.org/wiki/Earth_science" target="_blank" class="subject"> Earth science - Wikipedia</a></li>
-          <li class=""> <a href="https://courses.lumenlearning.com/suny-earthscience/chapter/earth-science-and-its-branches/" target="_blank" class="subject"> Earth Science and Its Branches</a></li>
-          <li class=""> <a href="https://science.nasa.gov/earth-science/" target="_blank" class="subject"> NASA Earth Science</a></li>
+          <li class="ad-rcs">Earth Materials and Resources </li>
+            <li class=""> <a href="./Earth's-Planetary-Structure.html" class="subject"> Earth's Planetary Structure</a></li>
+            <li class=""> <a href="./Minerals.html" class="subject"> Minerals</a></li>
+            <li class=""> <a href="./Rocks.html" class="subject"> Rocks</a></li>
+            <li class=""> <a href="./Earth-Materials-and-Resources-Quiz.html" class="quiz"> Assessment</a></li>
 
+          <li class="ad-rcs">Geologic Processes on the Earth's Surface </li>
+            <li class=""> <a href="./Nature-of-Exogenic-Processes.html" class="subject"> Nature of Exogenic Processes</a></li>
+            <li class=""> <a href="./Weathering.html" class="subject"> Weathering</a></li>
+            <li class=""> <a href="./Variability-in-Weathering.html" class="subject"> Variability in Weathering</a></li>
+            <li class=""> <a href="./Mass-Wasting.html" class="subject"> Mass Wasting</a></li>
+            <li class=""> <a href="./Geologic-Processes-on-the-Earths-Surface-Quiz.html" class="quiz"> Assessment</a></li>
 
+          <li class="ad-rcs">Geologic Processes Within the Earth's Surface </li>
+            <li class=""> <a href="./Landforms-and-Geomorphology.html" class="subject"> Landforms and Geomorphology</a></li>
+            <li class=""> <a href="./Tectonic-Forces,-Rock-Structure,-and-Landforms.html" class="subject"> Tectonic Forces, Rock Structure, and Landforms</a></li>
+            <li class=""> <a href="./Earthquakes.html" class="subject"> Earthquakes</a></li>
+            <li class=""> <a href="./Igneous-Processes-and-Landforms.html" class="subject"> Igneous Processes and Landforms</a></li>
+            <li class=""> <a href="./Distribution-of-Endogenic-Processes.html" class="subject"> Distribution of Endogenic Processes</a></li>
+            <li class=""> <a href="./Geologic-Processes-WIthin-the-Earths-Surface-Quiz.html" class="quiz"> Assessment</a></li>
 
-      </ul>
-    </div>
-  </div>
+          <li class="ad-rcs">Deformation of the Crust</li>
+            <li class=""> <a href="./Plate-Tectonics.html" class="subject">Plate Tectonics</a></li>
+            <li class=""> <a href="./Deformation-of-the-Crust-Quiz.html" class="quiz"> Assessment</a></li>
 
-  <div class="contentPage">
+          <li class="ad-rcs">Geologic Processes and Hazards</li>
+            <li class=""> <a href="./Faults-and-Earthquakes.html" class="subject">Faults and Earthquakes</a></li>
+            <li class=""> <a href="./Earthquake-Waves.html" class="subject">Earthquake Waves</a></li>
+            <li class=""> <a href="./Earthquake-Size-and-Characteristics.html" class="subject">Earthquake Size and Characteristics</a></li>
+            <li class=""> <a href="./Ground-Motion-and-Failure-During-Earthquakes.html" class="subject">Ground Motion and Failure During Earthquakes</a></li>
+            <li class=""> <a href="./Volcanic-Hazards.html" class="subject">Volcanic Hazards</a></li>
+            <li class=""> <a href="./Predicting-Volcanic-Eruptions.html" class="subject">Predicting Volcanic Eruptions</a></li>
+            <li class=""> <a href="./Mitigation-of-Damage.html" class="subject">Mitigation of Damage</a></li>
+            <li class=""> <a href="./Causes-of-Landslides.html" class="subject">Causes of Landslides</a></li>
+            <li class=""> <a href="./Types-of-Downslope-Movement.html" class="subject">Types of Downslope Movement</a></li>
+            <li class=""> <a href="./Hazards-Related-to-Landslides.html" class="subject">Hazards Related to Landslides</a></li>
+            <li class=""> <a href="./Mitigation-of-Damages-from-Landslides.html" class="subject">Mitigation of Damages from Landslides</a></li>
+            <li class=""> <a href="./Geologic-Processes-and-Hazards-Quiz.html" class="quiz"> Assessment</a></li>
+
+          <li class="ad-rcs">Hydrometeorological Phenomena and Hazards</li>
+            <li class=""> <a href="./Hurricane-Formation-and-Movement.html" class="subject">Hurricane Formation and Movement</a></li>
+            <li class=""> <a href="./Storm-Damages.html" class="subject">Storm Damages</a></li>
+            <li class=""> <a href="./Managing-Future-Damages.html" class="subject">Managing Future Damages</a></li>
+            <li class=""> <a href="./Flooding-Processes.html" class="subject">Flooding Processes</a></li>
+            <li class=""> <a href="./Flood-Intensity.html" class="subject">Flood Intensity</a></li>
+            <li class=""> <a href="./Mudflows,-Debris-Flows,-and-Other-Flood-Related-Hazards.html" class="subject">Mudflows, Debris Flows, and Other Flood-Related Hazards</a></li>
+            <li class=""> <a href="./Hydrometeorological-Phenomena-and-Hazards-Quiz.html" class="quiz"> Assessment</a></li>
+
+          <li class="ad-rcs">Marine and Coastal Processes</li>
+            <li class=""> <a href="./Erosion-of-Gently-Sloping-Coasts-and-Barrier-Islands.html" class="subject">Erosion of Gently Sloping Coasts and Barrier Islands</a></li>
+            <li class=""> <a href="./Sea-Cliff-Erosion.html" class="subject">Sea-Cliff Erosion</a></li>
+            <li class=""> <a href="./Human-Intervention-and-Mitigation-of-Coastal-Change.html" class="subject">Human Intervention and Mitigation of Coastal Change</a></li>
+            <li class=""> <a href="./The-Coastal-Zone.html" class="subject">The Coastal Zone</a></li>
+            <li class=""> <a href="./Origin-and-Nature-of-Waves.html" class="subject">Origin and Nature of Waves</a></li>
+            <li class=""> <a href="./Marine-and-Coastal-Processes-Quiz.html" class="quiz"> Assessment</a></li>
+
+          <hr>
+          <li class="ad-rcs">Additional Resources</li>
+            <li class=""> <a href="./A-Year-of-Life-Science-in-3-Minutes.html" class="subject"> A Year of Life Science in 3 Minutes</a></li>
+            <li class=""> <a href="./The-History-of-Life-on-Earth.html" class="subject"> The History of Life on Earth</a></li>
+            <li class=""> <a href="https://byjus.com/physics/earth-science/" target="_blank" class="subject"> What is Earth Science? - Byju's </a></li>
+            <li class=""> <a href="https://news.uchicago.edu/explainer/origin-life-earth-explained" target="_blank" class="subject"> The origin of life on Earth, explained - Uchicago news</a></li>
+            <li class=""> <a href="https://en.wikipedia.org/wiki/Earth_science" target="_blank" class="subject"> Earth science - Wikipedia</a></li>
+            <li class=""> <a href="https://courses.lumenlearning.com/suny-earthscience/chapter/earth-science-and-its-branches/" target="_blank" class="subject"> Earth Science and Its Branches</a></li>
+            <li class=""> <a href="https://science.nasa.gov/earth-science/" target="_blank" class="subject"> NASA Earth Science</a></li>
   
-    <iframe src="https://www.youtube.com/embed/x1QTc5YeO6w?si=BIqpCJXGwoQ_1h_7" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="ytvideo"></iframe>
+  
+
+          </ul>
+
+        </div>
+
+  
+  
+      </div>
+  
+      <div class="content">
+        
+        <div class="yt_nest">
+          <iframe src="https://www.youtube.com/embed/x1QTc5YeO6w?si=v1vZXA_zVXJEGND-" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="ytvideo"></iframe>
+
+        </div>
+
+        <div class="text_nest">
+          <h1>The Story of Earth's Formation and the Journey of Asteroid Bennu</h1>
+
+          <p>This is the story of our Earth’s formation four-and-a-half billion years ago, and of a little asteroid called Bennu, who’s also survived until now. We have the team at NASA to thank for bringing us this video.</p>
+          
+          <hr>
+          
+          <h2>Origin of the Solar System</h2>
+          
+          <p>The Milky Way, home to billions of stars, rising and setting over billions of worlds, including our own. In this vast expanse, how did our Sun, the Earth, and the planets come to be? In recent decades, our understanding of the solar system’s evolution has greatly improved, but deep questions remain. To answer those questions, astronomers are preparing to visit someplace very small: asteroid Bennu.</p>
+          
+          <hr>
+          
+          <h2>Bennu: A Time Capsule</h2>
+          
+          <p>Bennu is a lump of rock and organic material, the early building blocks of the solar system—of Earth, of us. Bennu is a time capsule, and its journey takes us way, way back, four-and-a-half billion years.</p>
+          
+          <hr>
+          
+          <h2>Formation of the Solar System</h2>
+          
+          <ul class="ul">
+            <li>The raw ingredients of Bennu and our solar system originated in a stellar nursery—a vast cloud of hydrogen, helium, and dust.</li>
+            <li>Nearby hot stars quickly burn up their fuel and destroy themselves in colossal explosions called supernovae, destabilizing our cloud and causing it to collapse.</li>
+            <li>In a geologic blink of an eye, 100,000 years, gravity and angular momentum flatten the cloud into an exploding disc, with a protostar forming in the center.</li>
+            <li>Clumps of dust, called chondrules, are flash-heated into droplets of molten rock and become the building blocks of the solar system.</li>
+          </ul>
+          
+          <hr>
+          
+          <h2>Formation of Planets and Asteroids</h2>
+          
+          <ul class="ul">
+            <li>Coaxed by gravity and turbulence, chondrules clump and grow into the first asteroids, mountains, and planets.</li>
+            <li>The asteroids are rubble piles of rock, metal, ice, and organics, with Bennu's parent body being a protoplanet.</li>
+            <li>Jupiter most likely forms near the outer edge of the solar system.</li>
+          </ul>
+          
+          <hr>
+          
+          <h2>Solar System Evolution</h2>
+          
+          <ul class="ul">
+            <li>About 500 million years after the sun ignites, Jupiter's massive gravity disrupts countless asteroids and comets, flinging them toward the inner planets.</li>
+            <li>Bennu's parent body survives this period of heavy bombardment.</li>
+            <li>Billions of years of quiet follow, until a billion years ago when a collision shatters the protoplanet, leading to the formation of Bennu.</li>
+            <li>Bennu gradually migrates toward the sun, eventually settling into a near-earth orbit.</li>
+          </ul> 
+          
+          <hr>
+          
+          <h2>Osiris Rex Mission</h2>
+          
+          <p>Today, NASA is sending a spacecraft called Osiris Rex to explore Bennu and retrieve a sample. Bennu has survived its long journey and settled into a near-earth orbit, bringing its secrets within our reach. Now it is ready to teach us more about the solar system’s history, its formation, its evolution, and our own place among the stars.</p>
+          
+          
+        </div>
+      </div>
+    </div>
+
+
+
 </div>
 
 
+<script src="../JavaScript/SearchBar.js"></script>
+<script src="../JavaScript/L-Dswitch.js"></script>
 
 
-  <script src="../JavaScript/SearchBar.js"></script>
-  <script src="../JavaScript/L-Dswitch.js"></script>
-</body>
+</body> 
 </html>
