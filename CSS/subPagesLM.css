@@ -37,6 +37,7 @@ hr {
 
   max-height: 100vh;
   max-width: 100vw;
+  
 }
 
 .header {
@@ -48,6 +49,7 @@ hr {
   height: 50px;
 
   background: #2D5987;
+  
 }
 
     .nav_icon {
@@ -70,18 +72,22 @@ hr {
     }
 
     .subject-title {
-      margin: auto;
-      width: 1200px;
+      white-space: nowrap;
+      background-color: #fff;
+      color: #2D5987;
+      padding: 6px;
+      padding: 6px 15px 6px 10px;
+      border-radius: 15px;
       
     
     }
 
     .go-back {
       background-color: white;
-      color: #242A32;
-      padding: 3px 5px;
+      color: #2D5987;
+      padding: 3px ;
       border-radius: 5px;
-      margin: 0px 4px ;
+      margin: 0px  ;
       transition: all 0.3s;
       
     }
@@ -337,10 +343,49 @@ hr {
   }
   
   
+  table {
+    color: #242A32;
+    background-color:#fff;
+
+    border-radius: 5px;
+
+    margin: auto;
+    width: 90%;
+
+  }
+
+  
+  .td {
+    vertical-align: top;
+    text-align: center;
+    background-color: #2D5987;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    width:30%;
+
+  }
+
+  td{
+    vertical-align: top;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    color: #343541;
+    padding: 5px;
+
+  }
   
   
-  
-  
+  .ex-img {
+    border-radius: 15px;
+    padding: 10px;
+
+    width:65% ;
+    margin: auto;
+
+    background-color:#f1f1f1;
+    
+  }
   
   
   .info_box,
