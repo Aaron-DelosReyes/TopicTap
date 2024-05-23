@@ -2,167 +2,167 @@
 let questions = [
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What is intercultural communication primarily concerned with?",
+        answer: "Communication among people from different nationalities and cultural backgrounds",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "Communication among people from the same culture",
+          "Communication among people from different nationalities and cultural backgrounds",
+          "Communication using only verbal methods",
+          "Communication without any cultural influence"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "Which of the following is NOT a factor that influences intercultural communication?",
+        answer: "Personal hobbies",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "Ethnicity",
+          "Religions",
+          "Personal hobbies",
+          "Sexual orientations"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "In which culture does nodding indicate disagreement?",
+        answer: "Greece",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "Indian subcontinent",
+          "North America",
+          "Greece",
+          "Japan"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "What stage in the Developmental Model of Intercultural Sensitivity involves recognizing cultural differences but feeling intimidated by them?",
+        answer: "Defense",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "Denial",
+          "Defense",
+          "Minimization",
+          "Acceptance"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "An individual in the Denial stage might say:",
+        answer: "'All cities are the same; they all have tall buildings, fast food chains, and coffee shops.'",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "'All cities are the same; they all have tall buildings, fast food chains, and coffee shops.'",
+          "'This culture does not view life the way we do; our culture is certainly better.'",
+          "'Once we see through the cultural differences, we really are just the same!'",
+          "'To address our issue, I have to adjust my approach to consider both my own and my counterpart’s background.'"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "At which stage does an individual begin to appreciate important cultural differences in behaviors and values?",
+        answer: "Acceptance",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "Defense",
+          "Minimization",
+          "Acceptance",
+          "Integration"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "Which trait is NOT identified by the World Bank as a characteristic of a competent intercultural communicator?",
+        answer: "Stubbornness",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "Flexibility",
+          "Reflectiveness",
+          "Stubbornness",
+          "Sensitivity"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "What does the trait 'reflectiveness' or 'mindfulness' refer to in intercultural communication?",
+        answer: "Being aware of one's own cultural biases and assumptions",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "Being able to think creatively",
+          "Being aware of one's own cultural biases and assumptions",
+          "Avoiding communication with other cultures",
+          "Always agreeing with other cultural viewpoints"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "How should you address gender norms in communication to avoid bias?",
+        answer: "Use plural pronouns or rewrite a sentence to avoid using pronouns",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "Use 'he' and 'man' to refer to a general group of people",
+          "Use plural pronouns or rewrite a sentence to avoid using pronouns",
+          "Ignore gender norms completely",
+          "Use only male pronouns"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "What is a key behavior to avoid when communicating interculturally?",
+        answer: "Stereotyping",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "Using polite language",
+          "Stereotyping",
+          "Being open-minded",
+          "Showing sensitivity"
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "According to the Developmental Model of Intercultural Sensitivity, what stage involves going beyond one's own culture and seeing things from multiple cultural perspectives?",
+        answer: "Integration",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "Acceptance",
+          "Defense",
+          "Integration",
+          "Adaptation"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "Which of the following is an example of nonverbal communication?",
+        answer: "Smiling",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "Writing an email",
+          "Giving a speech",
+          "Smiling",
+          "Talking on the phone"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "Which stage in the DMIS involves an individual being very open to world views and accepting new perspectives?",
+        answer: "Adaptation",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "Defense",
+          "Minimization",
+          "Adaptation",
+          "Integration"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "What should you avoid to prevent miscommunication when dealing with people of different age groups?",
+        answer: "Talking down to younger people and the elderly",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Talking slowly",
+          "Using jargon",
+          "Talking down to younger people and the elderly",
+          "Using clear language"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What is the significance of politeness in intercultural communication?",
+        answer: "It shows respect for cultural differences",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "It ensures you always agree with others",
+          "It shows respect for cultural differences",
+          "It eliminates the need for verbal communication",
+          "It only applies to formal settings"
         ]
       },
   ];
@@ -179,7 +179,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

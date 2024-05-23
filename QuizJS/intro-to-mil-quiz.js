@@ -2,167 +2,167 @@
 let questions = [
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What is communication?",
+        answer: "A process by which information is exchanged between individuals through a common system, signs, or behavior",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "A process by which information is exchanged between individuals through a common system, signs, or behavior",
+          "The act of writing a message",
+          "Only verbal interactions between people",
+          "The use of technology to convey messages"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "What are the two basic types of communication?",
+        answer: "Verbal and Non-Verbal",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "Oral and Written",
+          "Verbal and Non-Verbal",
+          "Direct and Indirect",
+          "Formal and Informal"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "Which of the following is NOT an example of non-verbal communication?",
+        answer: "Written communication",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "Signs and symbols",
+          "Gestures and body language",
+          "Facial expressions",
+          "Written communication"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "What is the role of the 'source' in communication?",
+        answer: "The person (or thing) attempting to share information",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "The person (or thing) attempting to share information",
+          "The medium through which information is sent",
+          "The message being communicated",
+          "The feedback received"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "What does 'encoding' refer to in the communication process?",
+        answer: "The process of assembling the message into a representative design",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "The process of assembling the message into a representative design",
+          "The interpretation of the message by the receiver",
+          "The medium used to send the message",
+          "The feedback provided by the receiver"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "When is communication established?",
+        answer: "When both the source and the receiver understand the same information",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "When both the source and the receiver understand the same information",
+          "When the message is sent",
+          "When the receiver responds",
+          "When the source decides to send a message"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "What is the 'channel' in the communication process?",
+        answer: "The medium through which an encoded message is conveyed",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "The feedback received",
+          "The medium through which an encoded message is conveyed",
+          "The source of the message",
+          "The receiver of the message"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "What is the difference between feedback and response?",
+        answer: "Feedback is a critical assessment of information produced, while response is an answer or reply",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "Feedback is a critical assessment of information produced, while response is an answer or reply",
+          "Feedback is immediate, while response is delayed",
+          "Feedback is always positive, while response is always negative",
+          "Feedback is verbal, while response is non-verbal"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "What was the original means of mass communication?",
+        answer: "Print - magazines, journals, and newspapers",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "Print - magazines, journals, and newspapers",
+          "Radio",
+          "Television",
+          "The Internet"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "What does media literacy aim to achieve?",
+        answer: "Empower citizens with the competencies to engage with traditional media and new technologies",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "Limit access to media content",
+          "Empower citizens with the competencies to engage with traditional media and new technologies",
+          "Promote a single viewpoint",
+          "Eliminate the use of digital media"
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What is information literacy?",
+        answer: "The ability to recognize when information is needed and to locate, evaluate, and effectively communicate information",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "The ability to recognize when information is needed and to locate, evaluate, and effectively communicate information",
+          "The use of digital tools to create content",
+          "The understanding of mass communication processes",
+          "The ability to write and publish articles"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "How does technology literacy benefit an individual?",
+        answer: "By enabling them to responsibly and effectively use technological tools",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "By making them experts in one specific technology",
+          "By enabling them to responsibly and effectively use technological tools",
+          "By limiting their access to new technologies",
+          "By teaching them to avoid digital media"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "What question does media and information literacy aim to answer?",
+        answer: "How can we access, search, critically assess, use, and contribute content wisely?",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "How can we access, search, critically assess, use, and contribute content wisely?",
+          "How can we avoid all media content?",
+          "How can we promote a single perspective?",
+          "How can we restrict access to information?"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "What is a key skill of a media literate person?",
+        answer: "Developing independent judgments about media content",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Developing independent judgments about media content",
+          "Avoiding media consumption",
+          "Promoting one-sided arguments",
+          "Ignoring media messages"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What is critical thinking in the context of media literacy?",
+        answer: "The ability to evaluate the merit of information based on certain standards or parameters",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "The ability to evaluate the merit of information based on certain standards or parameters",
+          "The ability to agree with all media messages",
+          "The skill of quickly producing media content",
+          "The talent for memorizing media facts"
         ]
       },
   ];
@@ -179,7 +179,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

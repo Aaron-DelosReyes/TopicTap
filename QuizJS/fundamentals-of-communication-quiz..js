@@ -2,167 +2,167 @@
 let questions = [
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "Which of the following best describes communication?",
+        answer: "A process that occurs between two or more people.",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "A one-way message delivery.",
+          "A process that occurs between two or more people.",
+          "The use of written words only.",
+          "A random exchange of ideas."
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "What is the role of the 'speaker' in communication?",
+        answer: "The source of information or message.",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "The recipient of the message.",
+          "The medium of the message.",
+          "The source of information or message.",
+          "The feedback provider."
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "What does the 'encoding' process involve?",
+        answer: "Converting the message into words, actions, or other forms.",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "Interpreting the message.",
+          "Receiving the message.",
+          "Converting the message into words, actions, or other forms.",
+          "Providing feedback."
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "In the Shannon-Weaver model, which essential element is missing?",
+        answer: "Feedback.",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "Channel.",
+          "Receiver.",
+          "Encoding.",
+          "Feedback."
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "What does the 'context' element refer to in communication?",
+        answer: "The environment where communication takes place.",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "The feedback provided by the receiver.",
+          "The medium used for communication.",
+          "The environment where communication takes place.",
+          "The message content."
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "According to Aristotle's model of communication, who is the active member?",
+        answer: "The sender.",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "The receiver.",
+          "The sender.",
+          "Both the sender and receiver.",
+          "The audience."
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "What is one key feature of the Transaction Model of Communication?",
+        answer: "Inclusion of feedback.",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "Linear process.",
+          "Inclusion of feedback.",
+          "Passive audience.",
+          "No barriers."
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "What function of communication involves expressing feelings and emotions?",
+        answer: "Emotional expression.",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "Control.",
+          "Motivation.",
+          "Emotional expression.",
+          "Information dissemination."
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "Which of the following is NOT one of the 7 Cs of Effective Communication?",
+        answer: "Creativity.",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "Courtesy.",
+          "Clearness.",
+          "Concreteness.",
+          "Creativity."
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "Which barrier to communication involves specialized vocabulary?",
+        answer: "Use of jargon.",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "Emotional barriers.",
+          "Noisy environment.",
+          "Use of jargon.",
+          "Lack of confidence."
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What type of communication uses words to relay a message?",
+        answer: "Verbal communication.",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "Nonverbal communication.",
+          "Verbal communication.",
+          "Written communication.",
+          "Visual communication."
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "What should be considered to achieve appropriateness in verbal communication?",
+        answer: "The environment or occasion.",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "The length of the message.",
+          "The environment or occasion.",
+          "The use of technical terms.",
+          "The speed of delivery."
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "How can nonverbal communication enhance a speech?",
+        answer: "It emphasizes the message and makes it more meaningful.",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "It shortens the message.",
+          "It emphasizes the message and makes it more meaningful.",
+          "It replaces the need for verbal communication.",
+          "It distracts the audience."
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "Why is feedback important in communication?",
+        answer: "It helps the speaker understand if the message was received correctly.",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "It allows the receiver to ignore the message.",
+          "It makes the communication process shorter.",
+          "It helps the speaker understand if the message was received correctly.",
+          "It confuses the message."
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What does the 'concreteness' feature in effective communication involve?",
+        answer: "Supporting the message with facts and real-life examples.",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "Using vague terms.",
+          "Keeping the message long.",
+          "Supporting the message with facts and real-life examples.",
+          "Ignoring the audience's background."
         ]
       },
   ];
@@ -179,7 +179,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

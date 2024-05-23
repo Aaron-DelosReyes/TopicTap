@@ -2,167 +2,223 @@
 let questions = [
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "When speaking from a manuscript, you write and deliver a speech word for word. For whom is the manuscript method most advantageous?",
+        answer: "d) All of the above",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "a) Public Figures",
+          "b) Media Personalities",
+          "c) Spokespersons for Government and Private Organizations",
+          "d) All of the above"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "What is a potential problem with the Manuscript Method?",
+        answer: "b) Overlooking making eye contact with the audience",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "a) Lack of time to prepare the speech",
+          "b) Overlooking making eye contact with the audience",
+          "c) Use of too many gestures",
+          "d) Ignoring the audience feedback"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "What is one strategy mentioned for organizing and delivering a Manuscript Speech?",
+        answer: "b) Practicing delivering the speech several times",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "a) Improvising during the speech",
+          "b) Practicing delivering the speech several times",
+          "c) Reading the speech silently",
+          "d) Using impromptu gestures"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "Which of the following is NOT a tip in using the Manuscript Method?",
+        answer: "c) Practicing the speech silently",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "a) Preparing the text neatly in triple space",
+          "b) Highlighting key words and phrases",
+          "c) Practicing the speech silently",
+          "d) Varying the volume, rate, and pitch of your voice during appropriate points in the speech"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "A memorized speech requires you to commit the speech to memory so that you do not bring your notes when delivering it. When should you memorize?",
+        answer: "c) Only for special occasions like accepting an award",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "a) Only for speeches longer than 30 minutes",
+          "b) Only for casual conversations",
+          "c) Only for special occasions like accepting an award",
+          "d) Never, it's always better to use notes"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "What is a disadvantage of delivering a Memorized Speech?",
+        answer: "b) It can result in a very unnatural delivery",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "a) It allows for improvisation",
+          "b) It can result in a very unnatural delivery",
+          "c) It requires less preparation than other methods",
+          "d) It encourages audience interaction"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "Which of the following is NOT an advantage of delivering a Memorized Speech?",
+        answer: "c) Having no chance to respond to audience feedback",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "a) Planning gestures, facial expressions, and movement",
+          "b) Concentrating on visual aids and props",
+          "c) Having no chance to respond to audience feedback",
+          "d) Feeling more confident"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "Which tip is mentioned in memorizing a speech?",
+        answer: "c) Reciting the speech over and over orally",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "a) Avoiding breaks during memorization",
+          "b) Memorizing the speech silently",
+          "c) Reciting the speech over and over orally",
+          "d) Memorizing the entire speech in one sitting"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "What is one strategy mentioned for organizing and delivering an Impromptu Speech?",
+        answer: "c) Playing Devil’s Advocate",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "a) Focusing only on the past",
+          "b) Using a rule of four for structure",
+          "c) Playing Devil’s Advocate",
+          "d) Memorizing the speech beforehand"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "What is one useful tip in effective impromptu speech delivery?",
+        answer: "d) Focusing on what to say first during the speech",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "a) Avoiding eye contact with the audience",
+          "b) Shaking hands vigorously with the one who introduced you",
+          "c) Thinking about negative things to stay grounded",
+          "d) Focusing on what to say first during the speech"
         ]
       },
+
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What is the primary goal of an entertainment speech?",
+        answer: "To share goodwill, joy, and pleasure with the audience",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "To educate the audience",
+          "To inform the audience",
+          "To share goodwill, joy, and pleasure with the audience",
+          "To inspire the audience"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "Which of the following is NOT a way to make an entertainment speech entertaining?",
+        answer: "Presenting complex information",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "Telling jokes",
+          "Presenting complex information",
+          "Sharing funny stories",
+          "Recalling a scary story"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "What is the first step in writing an entertaining speech?",
+        answer: "Choosing a light topic",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "Choosing a light topic",
+          "Enjoying the moment",
+          "Simplifying the flow of speech",
+          "Visualizing descriptive words"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "Which pattern of organization is used in informative speeches to present the history, evolution, or development of a topic?",
+        answer: "Chronological Pattern",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Chronological Pattern",
+          "Spatial Pattern",
+          "Topical/Categorical Pattern",
+          "Cause-Effect Pattern"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "Which type of persuasive speech questions the current state of things and impacts the future?",
+        answer: "Speech that Questions Policy",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "Speech that Questions Fact",
+          "Speech that Questions Value",
+          "Speech that Questions Policy",
+          "Speech that Advocates"
+        ]
+      },
+      {
+        numb: 16,
+        question: "What is NOT a method of persuasion discussed for persuasive speeches?",
+        answer: "Using irrelevant information",
+        options: [
+          "Enhancing credibility",
+          "Using evidence",
+          "Using reasoning",
+          "Using irrelevant information"
+        ]
+      },
+      {
+        numb: 17,
+        question: "Which is NOT an example of a logical fallacy?",
+        answer: "Circular Argument",
+        options: [
+          "Ad Hominem",
+          "False Cause and Effect",
+          "Circular Argument",
+          "Hasty Generalization"
+        ]
+      },
+      {
+        numb: 18,
+        question: "How should emotional appeal be used in persuasive speeches?",
+        answer: "Appropriately and as an accessory to evidence and reasoning",
+        options: [
+          "Exclusively as the main persuasive tool",
+          "Appropriately and as an accessory to evidence and reasoning",
+          "Only at the end of the speech",
+          "Only when addressing opposing arguments"
+        ]
+      },
+      {
+        numb: 19,
+        question: "What is the F.O.R.E.S.T. technique commonly used in persuasive speeches?",
+        answer: "Anecdotes, facts and figures, opinion, rhetorical questions, emotive language, superlatives, tripling",
+        options: [
+          "Anecdotes, facts and figures, opinion, rhetorical questions, emotive language, superlatives, tripling",
+          "Comparison-Contrast",
+          "Monroe’s Motivated Sequence",
+          "Problem-Solution"
+        ]
+      },
+      {
+        numb: 20,
+        question: "Which type of informative speech focuses on a process or sequence of events?",
+        answer: "Speech about processes",
+        options: [
+          "Speech about objects or people",
+          "Speech about processes",
+          "Speech about events",
+          "Speech about concepts"
         ]
       },
   ];
@@ -179,7 +235,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

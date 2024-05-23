@@ -1,170 +1,173 @@
 
 let questions = [
+
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What does human development focus on?",
+        answer: "Human growth and changes across the lifespan",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "Physical growth only",
+          "Human growth and changes across the lifespan",
+          "Intellectual growth only",
+          "Social changes only"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "What is the significance of studying human developmental stages?",
+        answer: "It helps in understanding how humans learn, mature, and adapt",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "It helps in physical growth",
+          "It helps in understanding how humans learn, mature, and adapt",
+          "It is important for financial planning",
+          "It focuses on social changes only"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "What happens during the prenatal stage?",
+        answer: "Hereditary endowments and sex are fixed, and body features develop",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "Rapid physical development occurs",
+          "Hereditary endowments and sex are fixed, and body features develop",
+          "Self-help skills are developed",
+          "Sex maturation occurs"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "During which stage do language and elementary reasoning skills develop?",
+        answer: "Early Childhood",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "Infancy",
+          "Late Childhood",
+          "Early Childhood",
+          "Adolescence"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "What characterizes adolescence?",
+        answer: "Transition from childhood to adulthood with rapid physical development",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "Foundation age for basic behavior",
+          "Pre-gang age with exploratory behavior",
+          "Transition from childhood to adulthood with rapid physical development",
+          "Age of adjustment to new life patterns"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "What is a developmental task during middle adulthood?",
+        answer: "Achieving adult social and civic responsibility",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "Learning to live with a partner",
+          "Achieving adult social and civic responsibility",
+          "Starting a family",
+          "Adjusting to aging parent"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "According to Havighurst, what happens if a person successfully masters a developmental task?",
+        answer: "The individual feels pride and satisfaction",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "The individual feels pride and satisfaction",
+          "The individual faces more challenges",
+          "The individual experiences social disapproval",
+          "The individual does not face any future tasks"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "What is Havighurst's model of development based on?",
+        answer: "Biopsychosocial model",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "Biopsychosocial model",
+          "Physical development model",
+          "Cognitive model",
+          "Emotional model"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "What is a key aspect of living mindfully?",
+        answer: "Using present moment tools",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "Ignoring the present moment",
+          "Using present moment tools",
+          "Focusing on future goals",
+          "Repressing emotions"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "Which mindfulness tool involves using breath as an anchor?",
+        answer: "Breathe Mindfully",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "Listen Deeply",
+          "Breathe Mindfully",
+          "Cultivate Insight",
+          "Practice Compassion"
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What is the focus of emotional development in late adolescence?",
+        answer: "Concerns about physical and sexual attractiveness",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "Gaining strength and muscle mass",
+          "Concerns about physical and sexual attractiveness",
+          "Developing fundamental skills",
+          "Shifts in relationships with parents"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "What is a characteristic of social development in late adolescence?",
+        answer: "Friends become more important",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "Shifts in relationships with parents",
+          "Friends become more important",
+          "Gaining strength and muscle mass",
+          "Understanding complex problems"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "Which stage involves the development of personal independence?",
+        answer: "Middle Childhood",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "Infancy",
+          "Middle Childhood",
+          "Early Adulthood",
+          "Adolescence"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "What is one of the challenges of late adolescence?",
+        answer: "Experiencing intimate partnerships",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Selecting a mate",
+          "Experiencing intimate partnerships",
+          "Adjusting to retirement",
+          "Learning to walk"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What is a developmental task during later maturity?",
+        answer: "Adjusting to death of spouse",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "Starting an occupation",
+          "Adjusting to death of spouse",
+          "Achieving personal independence",
+          "Preparing for marriage and family life"
         ]
       },
+  
+   
   ];
   //selecting all required elements
   const start_btn = document.querySelector(".start_btn button");
@@ -179,7 +182,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

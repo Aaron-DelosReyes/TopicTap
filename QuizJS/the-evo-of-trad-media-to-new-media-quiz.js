@@ -2,167 +2,167 @@
 let questions = [
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What is the Prehistoric Age also known as?",
+        answer: "Stone Age and the Metal Age",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "Stone Age and the Metal Age",
+          "Bronze Age and the Iron Age",
+          "Industrial Age and the Electronic Age",
+          "Information Age and the Digital Age"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "What notable invention was used widely throughout East Asia during the Prehistoric Age?",
+        answer: "Printing press using wood blocks",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "Printing press using wood blocks",
+          "Clay tablets",
+          "Typewriter",
+          "Telegraph"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "When did the Industrial Age begin?",
+        answer: "1700s",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "1700s",
+          "1500s",
+          "1800s",
+          "1900s"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "What major technological shift occurred during the Industrial Age?",
+        answer: "From hand tools to power-driven machines",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "From hand tools to power-driven machines",
+          "From analog to digital technology",
+          "From radio to television",
+          "From print to electronic media"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "What invention made the printing of materials like newspapers faster, cheaper, and easier during the Industrial Age?",
+        answer: "Steam press",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "Steam press",
+          "Typewriter",
+          "Telegraph",
+          "Radio"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "What is the key characteristic of the Electronic Age?",
+        answer: "Use of electronic components like sensors and microchips",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "Use of electronic components like sensors and microchips",
+          "Mass production of goods",
+          "Introduction of the printing press",
+          "Invention of the telegraph"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "Which device became popular in the 1940s and opened new experiences for Americans?",
+        answer: "Television",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "Television",
+          "Radio",
+          "Typewriter",
+          "Telephone"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "What period is characterized by a shift from traditional industry to an economy based on information computerization?",
+        answer: "Information (Digital) Age",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "Information (Digital) Age",
+          "Industrial Age",
+          "Electronic Age",
+          "Prehistoric Age"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "How do traditional media and new media relate to each other in the present time?",
+        answer: "Both can carry out their purpose of keeping people informed and connected",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "Both can carry out their purpose of keeping people informed and connected",
+          "New media has completely replaced traditional media",
+          "Traditional media is more interactive than new media",
+          "New media has a wider reach than traditional media"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "What is a key feature of new media according to McQuail?",
+        answer: "Audiences are more involved and able to provide feedback simultaneously",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "Audiences are more involved and able to provide feedback simultaneously",
+          "It is one-directional",
+          "Media experience is limited",
+          "Specific sense receptors are used"
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "Which normative theory of the press describes media under the control of the governing elite?",
+        answer: "Authoritarian Theory",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "Authoritarian Theory",
+          "Libertarian Theory",
+          "Social Responsibility Theory",
+          "Soviet Media Theory"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "What did the Soviet Media Theory emphasize?",
+        answer: "Serving the working class and their welfare",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "Serving the working class and their welfare",
+          "Promoting free press without censorship",
+          "Allowing media to operate under government control",
+          "Emphasizing rational thought and free judgment"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "Who is the German philosopher that developed a dialectical scheme emphasizing the progress of history and ideas?",
+        answer: "Georg Wilhelm Friedrich Hegel",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "Georg Wilhelm Friedrich Hegel",
+          "Karl Marx",
+          "Joseph Stalin",
+          "Benito Mussolini"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "What was the pre-colonial Philippine writing system known as?",
+        answer: "Baybayin or Alibata",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Baybayin or Alibata",
+          "Tagalog script",
+          "Old Kawi",
+          "Brahmic script"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What was the significance of the year 1994 in the history of media in the Philippines?",
+        answer: "Philippines' first connection to the Internet was established",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "Philippines' first connection to the Internet was established",
+          "The first telephone system began operations",
+          "Local businessmen established their own radio stations",
+          "Philippines was named the 'Social Media Capital of the World'"
         ]
       },
   ];
@@ -179,7 +179,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");
@@ -352,7 +352,7 @@ let questions = [
                 if(option_list.children[i].textContent == correcAns){ //if there is an option which is matched to an array answer
                     option_list.children[i].setAttribute("class", "option correct"); //adding green color to matched option
                     option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); //adding tick icon to matched option
-                    console.log("Time Off: Auto selected correct answer.");
+                    console.log("Time Off: Auto selected correc nswer.");
                 }
             }
             for(i=0; i < allOptions; i++){

@@ -1,170 +1,172 @@
 
 let questions = [
+
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What do researchers believe brain dominance influences?",
+        answer: "Preferences, problem-solving style, personality characteristics, and career choices",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "Preferences, problem-solving style, personality characteristics, and career choices",
+          "Only career choices",
+          "Physical abilities",
+          "Dietary preferences"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "Which activity is associated with right-brain dominance?",
+        answer: "Athletics, art, or music",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "Monopoly, scrabble, or chess",
+          "Athletics, art, or music",
+          "Being on time",
+          "Careful planning"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "How do new research findings describe the brain?",
+        answer: "As a muscle that can grow stronger with use",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "As a fixed structure that doesn't change",
+          "As a muscle that can grow stronger with use",
+          "As a mystery that cannot be understood",
+          "As something that deteriorates with age"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "What happens to the brain when you learn new things?",
+        answer: "The tiny connections in the brain multiply and get stronger",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "The tiny connections in the brain multiply and get stronger",
+          "The brain cells shrink",
+          "The brain stops changing",
+          "The brain loses its ability to adapt"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "What did scientists discover when studying animals' brains in challenging environments?",
+        answer: "The animals had more and stronger connections between brain cells",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "The animals were less active",
+          "The animals had more and stronger connections between brain cells",
+          "The animals' brains were lighter",
+          "The animals' behavior didn't change"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "How much heavier were the brains of animals in stimulating environments compared to those in bare cages?",
+        answer: "About 10% heavier",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "About 10% heavier",
+          "About 5% lighter",
+          "The same weight",
+          "About 20% heavier"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "What is key to growing the brain according to the text?",
+        answer: "Practice",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "Rest",
+          "Practice",
+          "Genetics",
+          "Diet"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "Why don't people think babies are stupid?",
+        answer: "Because they just haven’t learned to talk yet",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "Because they already know how to talk",
+          "Because they just haven’t learned to talk yet",
+          "Because they can solve math problems",
+          "Because they can read fast"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "What do the 'smartest' students in class often have in common?",
+        answer: "They may have started practicing reading before others",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "They are born with higher IQs",
+          "They may have started practicing reading before others",
+          "They never make mistakes",
+          "They don't need to practice as much"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "What can prevent people from growing a stronger brain?",
+        answer: "Thinking they can't do it or that it's too hard",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "Practicing regularly",
+          "Thinking they can't do it or that it's too hard",
+          "Reading books",
+          "Eating healthy"
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What is good mental health associated with?",
+        answer: "Positive self-image and satisfying relationships",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "Positive self-image and satisfying relationships",
+          "Avoiding challenges",
+          "Isolating oneself",
+          "Ignoring problems"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "What are some common mental health issues among teenagers?",
+        answer: "Depression, anxiety, body esteem issues, and suicide",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "Increased happiness",
+          "Depression, anxiety, body esteem issues, and suicide",
+          "Better physical health",
+          "Enhanced social skills"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "Why do many young people ignore mental health problems?",
+        answer: "They think they will 'snap out of it' or are ashamed",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "They think they will 'snap out of it' or are ashamed",
+          "They don't believe in mental health",
+          "They feel too happy",
+          "They have too much support"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "What can help people with mental health problems?",
+        answer: "Effective treatments available for all racial, ethnic, and cultural groups",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Ignoring the problem",
+          "Effective treatments available for all racial, ethnic, and cultural groups",
+          "Isolating themselves",
+          "Hiding their feelings"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What is one way to change your mind about mental health issues?",
+        answer: "Understanding mental health issues",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "Ignoring mental health issues",
+          "Understanding mental health issues",
+          "Avoiding any discussion",
+          "Believing they are not real"
         ]
       },
+   
   ];
   //selecting all required elements
   const start_btn = document.querySelector(".start_btn button");
@@ -179,7 +181,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

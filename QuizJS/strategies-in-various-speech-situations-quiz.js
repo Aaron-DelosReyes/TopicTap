@@ -2,167 +2,167 @@
 let questions = [
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What does intrapersonal communication refer to?",
+        answer: "Communication that centers on one person where the speaker acts as both sender and receiver of the message",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "Communication between two people",
+          "Communication involving three or more people",
+          "Communication that centers on one person where the speaker acts as both sender and receiver of the message",
+          "Communication in front of a group"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "Which type of communication involves at least three but not more than twelve people engaging in face-to-face interaction?",
+        answer: "Small Group",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "Dyad Communication",
+          "Small Group",
+          "Public",
+          "Mass Communication"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "What type of speech context requires delivering a message in front of a group, often with exaggerated channels like louder voice and expansive gestures?",
+        answer: "Public",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "Intrapersonal",
+          "Interpersonal",
+          "Small Group",
+          "Public"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "What is an example of mass communication?",
+        answer: "Articulating your stand on current issues through the school’s newspaper",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "Having a discussion with your group mates",
+          "Delivering a graduation speech",
+          "Articulating your stand on current issues through the school’s newspaper",
+          "Talking to yourself about a classmate's behavior"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "Which speech style is used in formal settings and is typically one-way?",
+        answer: "Formal",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "Intimate",
+          "Casual",
+          "Consultative",
+          "Formal"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "What is a locutionary act?",
+        answer: "The actual act of uttering",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "The social function of what is said",
+          "The resulting act of what is said",
+          "The actual act of uttering",
+          "An indirect speech act"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "What type of illocutionary act expresses the speaker’s feelings or emotional reactions?",
+        answer: "Expressive",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "Assertive",
+          "Directive",
+          "Commissive",
+          "Expressive"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "Which strategy in communication involves the process by which people decide who takes the conversational floor?",
+        answer: "Turn-taking",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "Nomination",
+          "Restriction",
+          "Turn-taking",
+          "Repair"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "What type of speech style is common among peers and friends and often uses jargon, slang, or the vernacular language?",
+        answer: "Casual",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "Intimate",
+          "Casual",
+          "Consultative",
+          "Frozen"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "Which communicative strategy involves moving from one topic to another in a conversation?",
+        answer: "Topic Shifting",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "Topic Control",
+          "Topic Shifting",
+          "Repair",
+          "Termination"
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What is a directive illocutionary act?",
+        answer: "An act in which the speaker tries to make the addressee perform an action",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "An act in which the speaker expresses belief about the truth of a proposition",
+          "An act in which the speaker tries to make the addressee perform an action",
+          "An act that commits the speaker to doing something in the future",
+          "An act that brings a change in the external situation"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "Which type of speech style remains unchanged and is often used in ceremonies?",
+        answer: "Frozen",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "Intimate",
+          "Casual",
+          "Formal",
+          "Frozen"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "What is the function of a perlocutionary act?",
+        answer: "It is the resulting act of what is said, based on the context",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "It is the social function of what is said",
+          "It is the actual act of uttering",
+          "It is the resulting act of what is said, based on the context",
+          "It is an indirect speech act"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "Which communicative strategy is used to collaboratively and productively establish a topic?",
+        answer: "Nomination",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Restriction",
+          "Nomination",
+          "Turn-taking",
+          "Topic Shifting"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What is an assertive illocutionary act?",
+        answer: "An act in which the speaker expresses belief about the truth of a proposition",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "An act that commits the speaker to doing something in the future",
+          "An act in which the speaker tries to make the addressee perform an action",
+          "An act in which the speaker expresses belief about the truth of a proposition",
+          "An act in which the speaker expresses his/her feelings or emotional reactions"
         ]
       },
   ];
@@ -179,7 +179,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

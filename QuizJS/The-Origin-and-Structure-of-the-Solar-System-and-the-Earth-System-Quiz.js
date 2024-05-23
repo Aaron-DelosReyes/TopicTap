@@ -1,73 +1,225 @@
 
 let questions = [
   {
-  numb: 1,
-  question: "What are creation myths?",
-  answer: "Cultural and religious narratives explaining the universe's origin.",
-  options: [
-    "Scientific explanations for the origin of the universe.",
-    "Cultural and religious narratives explaining the universe's origin.",
-    "Hypotheses based on empirical evidence.",
-    "Speculations about the cyclical nature of the cosmos."
-  ]
-},
+    numb: 1,
+    question: "What do creation myths typically aim to explain?",
+    answer: "The origins of the universe and the nature of life",
+    options: [
+      "The purpose of human existence",
+      "The origins of the universe and the nature of life",
+      "Scientific phenomena",
+      "Future predictions"
+    ]
+  },
   {
-  numb: 2,
-  question: "What does CSS stand for?",
-  answer: "Cascading Style Sheet",
-  options: [
-    "Common Style Sheet",
-    "Colorful Style Sheet",
-    "Computer Style Sheet",
-    "Cascading Style Sheet"
-  ]
-},
+    numb: 2,
+    question: "What marks the beginning of the universe according to the Big Bang Theory?",
+    answer: "A state of nothingness",
+    options: [
+      "Formation of the Earth",
+      "A state of nothingness",
+      "Appearance of the first humans",
+      "A large meteor impact"
+    ]
+  },
   {
-  numb: 3,
-  question: "What does PHP stand for?",
-  answer: "Hypertext Preprocessor",
-  options: [
-    "Hypertext Preprocessor",
-    "Hypertext Programming",
-    "Hypertext Preprogramming",
-    "Hometext Preprocessor"
-  ]
-},
+    numb: 3,
+    question: "What does the Steady State Theory propose about the universe?",
+    answer: "It remains constant over time.",
+    options: [
+      "It is constantly expanding and contracting.",
+      "It remains constant over time.",
+      "It started from a massive explosion.",
+      "It will eventually collapse into itself."
+    ]
+  },
   {
-  numb: 4,
-  question: "What does SQL stand for?",
-  answer: "Structured Query Language",
-  options: [
-    "Stylish Question Language",
-    "Stylesheet Query Language",
-    "Statement Question Language",
-    "Structured Query Language"
-  ]
-},
+    numb: 4,
+    question: "What key event does the Inflation Theory propose occurred before the Big Bang?",
+    answer: "Rapid exponential expansion",
+    options: [
+      "Gradual cooling of the universe",
+      "Rapid exponential expansion",
+      "Formation of black holes",
+      "Increase in cosmic radiation"
+    ]
+  },
   {
-  numb: 5,
-  question: "What does XML stand for?",
-  answer: "eXtensible Markup Language",
-  options: [
-    "eXtensible Markup Language",
-    "eXecutable Multiple Language",
-    "eXTra Multi-Program Language",
-    "eXamine Multiple Language"
-  ]
-},
-
-
-   {
-   numb: 6,
-   question: "Your Question is Here",
-
-   options: [
-     "Option 1",
-     "option 2",
-     "option 3",
-     "option 4"
-  ]
- },
+    numb: 5,
+    question: "Approximately how many years ago did the solar system form?",
+    answer: "4.5 billion years ago",
+    options: [
+      "2.5 billion years ago",
+      "3.5 billion years ago",
+      "4.5 billion years ago",
+      "5.5 billion years ago"
+    ]
+  },
+  {
+    numb: 6,
+    question: "In which part of the Milky Way is our solar system located?",
+    answer: "Orion Star Cluster",
+    options: [
+      "Sagittarius Star Cluster",
+      "Andromeda Cluster",
+      "Orion Star Cluster",
+      "Pegasus Star Cluster"
+    ]
+  },
+  {
+    numb: 7,
+    question: "Which planet is known as the only environment capable of sustaining life?",
+    answer: "Earth",
+    options: [
+      "Mars",
+      "Earth",
+      "Venus",
+      "Mercury"
+    ]
+  },
+  {
+    numb: 8,
+    question: "Which planet is famous for its extensive ring system?",
+    answer: "Saturn",
+    options: [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+    ]
+  },
+  {
+    numb: 9,
+    question: "Where is the asteroid belt located?",
+    answer: "Between Mars and Jupiter",
+    options: [
+      "Between Mars and Jupiter",
+      "Beyond Neptune",
+      "Around the Sun",
+      "Near the Earth’s orbit"
+    ]
+  },
+  {
+    numb: 10,
+    question: "What does the Oort Cloud consist of?",
+    answer: "Comets and icy debris",
+    options: [
+      "Rocky planets",
+      "Comets and icy debris",
+      "Dust and gas",
+      "Stars and galaxies"
+    ]
+  },
+  {
+    numb: 11,
+    question: "Which of the following is NOT a branch of physical science?",
+    answer: "Biology",
+    options: [
+      "Biology",
+      "Geology",
+      "Astronomy",
+      "Chemistry"
+    ]
+  },
+  {
+    numb: 12,
+    question: "Which statement best describes Newton's third law of motion?",
+    answer: "For every action, there is an equal and opposite reaction.",
+    options: [
+      "For every action, there is an equal and opposite reaction.",
+      "An object at rest stays at rest.",
+      "Force equals mass times acceleration.",
+      "Energy cannot be created or destroyed."
+    ]
+  },
+  {
+    numb: 13,
+    question: "Through which medium do sound waves primarily propagate?",
+    answer: "Air",
+    options: [
+      "Vacuum",
+      "Solids",
+      "Liquids",
+      "Air"
+    ]
+  },
+  {
+    numb: 14,
+    question: "What type of bonds form between adjacent water molecules?",
+    answer: "Hydrogen bonds",
+    options: [
+      "Ionic bonds",
+      "Covalent bonds",
+      "Hydrogen bonds",
+      "Metallic bonds"
+    ]
+  },
+  {
+    numb: 15,
+    question: "What does the theory of plate tectonics explain?",
+    answer: "Movement of Earth's lithospheric plates",
+    options: [
+      "The formation of stars",
+      "Movement of Earth's lithospheric plates",
+      "Creation of the universe",
+      "Chemical bonding"
+    ]
+  },
+  {
+    numb: 16,
+    question: "Why is Earth's position in the Goldilocks zone important?",
+    answer: "It ensures the presence of liquid water.",
+    options: [
+      "It prevents solar flares.",
+      "It ensures the presence of liquid water.",
+      "It stabilizes Earth's magnetic field.",
+      "It increases the planet's rotation speed."
+    ]
+  },
+  {
+    numb: 17,
+    question: "How does Earth's atmosphere contribute to life?",
+    answer: "By maintaining a consistent temperature",
+    options: [
+      "By trapping harmful radiation",
+      "By maintaining a consistent temperature",
+      "By providing necessary nutrients",
+      "By reflecting sunlight"
+    ]
+  },
+  {
+    numb: 18,
+    question: "Which Earth process is involved in nutrient recycling?",
+    answer: "Volcanism",
+    options: [
+      "Weathering",
+      "Erosion",
+      "Volcanism",
+      "Precipitation"
+    ]
+  },
+  {
+    numb: 19,
+    question: "Which Earth system includes all living organisms?",
+    answer: "Biosphere",
+    options: [
+      "Atmosphere",
+      "Geosphere",
+      "Hydrosphere",
+      "Biosphere"
+    ]
+  },
+  {
+    numb: 20,
+    question: "Which of the following fields does NOT contribute to Earth Systems Science?",
+    answer: "Literature",
+    options: [
+      "Ecology",
+      "Physics",
+      "Astronomy",
+      "Literature"
+    ]
+  },
 
  
 ];

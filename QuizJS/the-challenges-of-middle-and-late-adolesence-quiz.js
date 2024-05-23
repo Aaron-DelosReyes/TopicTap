@@ -1,170 +1,173 @@
 
 let questions = [
+
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What is the key ingredient for improving relationships according to 'Encouragement 101'?",
+        answer: "Encouragement",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+          "Praise",
+          "Criticism",
+          "Encouragement",
+          "Punishment"
         ]
       },
       {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "Who developed the psychological idea of encouragement?",
+        answer: "Alfred Adler",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+          "Sigmund Freud",
+          "Carl Jung",
+          "Alfred Adler",
+          "B.F. Skinner"
         ]
       },
       {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "What is often mistaken for encouragement?",
+        answer: "Praise",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+          "Punishment",
+          "Criticism",
+          "Praise",
+          "Bribery"
         ]
       },
       {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "What does encouragement develop in a person?",
+        answer: "Psychological hardiness and social interest",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+          "Physical strength",
+          "Psychological hardiness and social interest",
+          "Financial independence",
+          "Social status"
         ]
       },
       {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "What is a common result of using discouraging words and actions?",
+        answer: "Misbehavior",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+          "Improved behavior",
+          "Misbehavior",
+          "Increased self-esteem",
+          "Greater cooperation"
         ]
       },
       {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "What is one way people commonly discourage others?",
+        answer: "Setting standards too high",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+          "Encouraging effort",
+          "Setting standards too high",
+          "Praising achievements",
+          "Allowing autonomy"
         ]
       },
       {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "What is the essence of encouragement according to Mr. Rogers?",
+        answer: "I like you just the way you are",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+          "You can do better",
+          "I like you just the way you are",
+          "You should try harder",
+          "You need to improve"
         ]
       },
       {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "What does encouragement enhance, leading to greater social interest?",
+        answer: "A feeling of belonging",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+          "A feeling of competition",
+          "A feeling of superiority",
+          "A feeling of belonging",
+          "A feeling of independence"
         ]
       },
       {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "What is the first step to becoming an encouraging person?",
+        answer: "Distinguishing encouragement from discouragement",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+          "Practicing praise",
+          "Distinguishing encouragement from discouragement",
+          "Setting high standards",
+          "Using rewards and punishments"
         ]
       },
       {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "What does Dr. Emily De Carlo emphasize about declarations?",
+        answer: "We must not give our power away to others by accepting their declarations",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+          "We should accept others' declarations",
+          "We must not give our power away to others by accepting their declarations",
+          "Declarations are not important",
+          "Others' declarations determine our fate"
         ]
       },
       {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What is a dangerous declaration mentioned by Dr. De Carlo?",
+        answer: "You will not amount to anything",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+          "You will succeed",
+          "You will not amount to anything",
+          "You are capable",
+          "You have potential"
         ]
       },
       {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "What should you do to counteract negative declarations?",
+        answer: "Consciously replace them with your own positive declarations",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+          "Ignore them",
+          "Consciously replace them with your own positive declarations",
+          "Accept them",
+          "Argue against them"
         ]
       },
       {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "What can you declare according to Dr. De Carlo?",
+        answer: "I will survive any attempts of others to control my life",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+          "I will be controlled by others",
+          "I will survive any attempts of others to control my life",
+          "I will accept my fate",
+          "I will not reach my goals"
         ]
       },
       {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "What does being happy mean according to 'BEING Happy'?",
+        answer: "Finding strength in forgiveness, hope in battles, and love in disagreements",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+          "Having a life without challenges",
+          "Finding strength in forgiveness, hope in battles, and love in disagreements",
+          "Always being successful",
+          "Avoiding all problems"
         ]
       },
       {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What is one aspect of being happy mentioned in the text?",
+        answer: "Allowing the free, happy and simple child inside each of us to live",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+          "Never making mistakes",
+          "Allowing the free, happy and simple child inside each of us to live",
+          "Always being right",
+          "Being serious all the time"
         ]
       },
+  
+   
   ];
   //selecting all required elements
   const start_btn = document.querySelector(".start_btn button");
@@ -179,7 +182,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");

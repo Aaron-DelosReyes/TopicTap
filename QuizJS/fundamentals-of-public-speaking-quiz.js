@@ -2,169 +2,169 @@
 let questions = [
     {
         numb: 1,
-        question: "What is society?",
-        answer: "Collection of interacting individuals sharing the same way of life and living in the same territory.",
+        question: "What is the first step in the speech writing process?",
+        answer: "Conducting an audience analysis",
         options: [
-          "A group of people with different cultures.",
-          "A collection of individuals with similar beliefs.",
-          "A community with diverse backgrounds.",
-          "Collection of interacting individuals sharing the same way of life and living in the same territory."
+            "Preparing an outline",
+            "Conducting an audience analysis",
+            "Narrowing down a topic",
+            "Gathering data"
         ]
-      },
-      {
+    },
+    {
         numb: 2,
-        question: "What is the primary difference between ascribed status and achieved status?",
-        answer: "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
+        question: "Which of the following is a general purpose for delivering a speech?",
+        answer: "To entertain",
         options: [
-          "Ascribed status is based on education, while achieved status is based on family relationships.",
-          "Ascribed status is gained through competition, while achieved status is assigned at birth.",
-          "Ascribed status is assigned at birth, while achieved status is gained through individual effort.",
-          "Ascribed status is based on occupation, while achieved status is based on age."
+            "To analyze",
+            "To organize",
+            "To entertain",
+            "To summarize"
         ]
-      },
-      {
+    },
+    {
         numb: 3,
-        question: "What is culture?",
-        answer: "Culture consists of all the shared products of human beings.",
+        question: "What should you do after selecting a topic?",
+        answer: "Narrow down the topic",
         options: [
-          "The physical environment where people live.",
-          "The political system of a society.",
-          "The economic structure of a community.",
-          "Culture consists of all the shared products of human beings."
+            "Gather data",
+            "Prepare an outline",
+            "Narrow down the topic",
+            "Conduct an audience analysis"
         ]
-      },
-      {
+    },
+    {
         numb: 4,
-        question: "What is the primary characteristic of culture?",
-        answer: "Dynamic, Flexible, & Adaptive",
+        question: "Which speech pattern involves organizing the content by time?",
+        answer: "Chronological",
         options: [
-          "Stable and unchanging",
-          "Rigid and inflexible",
-          "Dynamic, Flexible, & Adaptive",
-          "Authoritarian and controlling"
+            "Causal",
+            "Comparison/contrast",
+            "Chronological",
+            "Problem-solution"
         ]
-      },
-      {
+    },
+    {
         numb: 5,
-        question: "What is a culture trait?",
-        answer: "The smallest unit of culture.",
+        question: "What is the primary goal of the introduction in a speech?",
+        answer: "To get the attention of your audience",
         options: [
-          "A cluster of interrelated traits.",
-          "The largest unit of culture.",
-          "A broad cultural pattern.",
-          "The smallest unit of culture."
+            "To summarize the main points",
+            "To provide examples",
+            "To get the attention of your audience",
+            "To present statistical data"
         ]
-      },
-      {
+    },
+    {
         numb: 6,
-        question: "What is the difference between ethnocentrism and xenocentrism?",
-        answer: "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior.",
+        question: "Which type of speech seeks to influence the audience's beliefs and decisions?",
+        answer: "Persuasive Speech",
         options: [
-          "Ethnocentrism believes other cultures are superior, while xenocentrism believes one's own culture is superior.",
-          "Ethnocentrism believes all cultures are equal, while xenocentrism believes in cultural superiority.",
-          "Ethnocentrism believes in cultural diversity, while xenocentrism believes in cultural homogeneity.",
-          "Ethnocentrism believes one's own culture is superior, while xenocentrism believes other cultures are superior."
+            "Informative Speech",
+            "Entertainment Speech",
+            "Persuasive Speech",
+            "Impromptu Speech"
         ]
-      },
-      {
+    },
+    {
         numb: 7,
-        question: "What is cultural relativism?",
-        answer: "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
+        question: "What does data gathering involve?",
+        answer: "Collecting ideas, information, sources, and references relevant to your topic",
         options: [
-          "The belief that one's own culture is superior to others.",
-          "The belief that all cultures are equal.",
-          "The ability to understand a culture on its own terms without making judgments based on one's own culture.",
-          "The belief that cultural practices should be questioned and criticized."
+            "Editing and revising the speech",
+            "Determining the purpose of the speech",
+            "Selecting a speech pattern",
+            "Collecting ideas, information, sources, and references relevant to your topic"
         ]
-      },
-      {
+    },
+    {
         numb: 8,
-        question: "What is the primary goal of cultural relativism?",
-        answer: "To promote an understanding of cultural practices without imposing one's own cultural standards.",
+        question: "Which of the following strategies can be used in the conclusion of a speech?",
+        answer: "Restate the main idea and call for action",
         options: [
-          "To prove the superiority of one's own culture over others.",
-          "To eliminate cultural diversity and establish a global culture.",
-          "To promote an understanding of cultural practices without imposing one's own cultural standards.",
-          "To enforce cultural practices through legislation and force."
+            "Introduce new information",
+            "Restate the main idea and call for action",
+            "Ask rhetorical questions",
+            "Provide an anecdote unrelated to the main idea"
         ]
-      },
-      {
+    },
+    {
         numb: 9,
-        question: "What is xenocentrism?",
-        answer: "The belief that one's own culture is inferior to those of other peoples.",
+        question: "What is a common disadvantage of impromptu speaking?",
+        answer: "Tendency to be disorganized",
         options: [
-          "The belief that all cultures are equal.",
-          "The belief that one's own culture is superior to others.",
-          "The belief that cultural diversity is detrimental to society.",
-          "The belief that one's own culture is inferior to those of other peoples."
+            "May not have adequate time to plan",
+            "Lacks audience rapport",
+            "Tendency to be disorganized",
+            "Might take a fast pace"
         ]
-      },
-      {
+    },
+    {
         numb: 10,
-        question: "What is an example of achieved status?",
-        answer: "Occupation",
+        question: "Which type of speech delivery involves speaking with advanced preparation and reading aloud a written message?",
+        answer: "Manuscript",
         options: [
-          "Age",
-          "Gender",
-          "Race",
-          "Occupation"
+            "Extemporaneous",
+            "Impromptu",
+            "Memorized",
+            "Manuscript"
         ]
-      },
-      {
+    },
+    {
         numb: 11,
-        question: "What is an example of material culture?",
-        answer: "Mobile phones",
+        question: "What is one tip for effective speech delivery?",
+        answer: "Use pauses to emphasize important points",
         options: [
-          "Language",
-          "Beliefs",
-          "Ideas",
-          "Mobile phones"
+            "Speak in a monotone",
+            "Avoid eye contact",
+            "Use pauses to emphasize important points",
+            "Overuse technical jargon"
         ]
-      },
-      {
+    },
+    {
         numb: 12,
-        question: "What is a culture universal?",
-        answer: "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
+        question: "What should you do if you are using a microphone during your speech?",
+        answer: "Check your voice in the microphone to ensure you are audible",
         options: [
-          "A cultural practice unique to a specific culture.",
-          "A cultural value shared by only a few cultures.",
-          "An element, pattern, trait, or institution that is common to all human cultures worldwide.",
-          "A cultural artifact with historical significance."
+            "Speak very softly",
+            "Check your voice in the microphone to ensure you are audible",
+            "Avoid using any notes",
+            "Stand far away from the microphone"
         ]
-      },
-      {
+    },
+    {
         numb: 13,
-        question: "What is the difference between absolute and critical cultural relativism?",
-        answer: "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why.",
+        question: "What is the term for the main point or central idea of a speech?",
+        answer: "Thesis statement",
         options: [
-          "Absolute cultural relativism questions cultural practices, while critical cultural relativism accepts them without question.",
-          "Absolute cultural relativism believes all cultures are equal, while critical cultural relativism believes in cultural diversity.",
-          "Absolute cultural relativism believes in cultural diversity, while critical cultural relativism believes in cultural homogeneity.",
-          "Absolute cultural relativism believes everything within a culture must not be questioned, while critical cultural relativism questions cultural practices in terms of who is accepting them and why."
+            "Introduction",
+            "Thesis statement",
+            "Conclusion",
+            "Body"
         ]
-      },
-      {
+    },
+    {
         numb: 14,
-        question: "What is the primary function of a role in society?",
-        answer: "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
+        question: "Which method of speech delivery is characterized by a conversational style and use of notes?",
+        answer: "Extemporaneous",
         options: [
-          "A system of beliefs and values shared by a group of people.",
-          "A set of rules governing social interactions.",
-          "A comprehensive pattern of behavior that provides a means of identifying and placing an individual in society.",
-          "A mechanism for enforcing cultural norms."
+            "Manuscript",
+            "Memorized",
+            "Impromptu",
+            "Extemporaneous"
         ]
-      },
-      {
+    },
+    {
         numb: 15,
-        question: "What is a culture complex?",
-        answer: "Individual culture traits combine to form culture complexes.",
+        question: "What is a good strategy for dealing with speech anxiety?",
+        answer: "Practice the speech multiple times",
         options: [
-          "A comprehensive pattern of behavior that identifies a person's social status.",
-          "A set of beliefs and values shared by a group of people.",
-          "A collection of material objects created by a society.",
-          "Individual culture traits combine to form culture complexes."
+            "Avoid eye contact with the audience",
+            "Speak as quickly as possible to get it over with",
+            "Practice the speech multiple times",
+            "Ignore the feeling of nervousness"
         ]
-      },
+    },
   ];
   //selecting all required elements
   const start_btn = document.querySelector(".start_btn button");
@@ -179,7 +179,7 @@ let questions = [
   const timeCount = document.querySelector(".timer .timer_sec");
   
   // Hide the quiz box initially
-  quiz_box.classList.remove("activeQuiz");  
+  quiz_box.classList.remove("activeQuiz");
   
   // Show the info box when the page loads
   info_box.classList.add("activeInfo");
