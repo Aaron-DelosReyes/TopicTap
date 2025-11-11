@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Source Code Pro", monospace;
+}
+
+body{
+    background-color: #101010;
+    padding: 40px 150px;
+    height: 100vh;
+}
+
+.mainBody{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 100%;
+}
+    .header{
+        display: flex;
+        background-color: #1A1A1E;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        border-radius: 15px;
+        padding: 20px;
+        border: 2px #2a4646 solid;
+    }
+
+        .logo{
+            display: flex;       
+            justify-content: flex-start; 
+            align-items: center; 
+            height: 52px;
+        }
+        .aaronLogo{
+            object-fit:cover;
+            height: 100%;
+            width: 200px;
+            margin: -35px;
+        }
+
+        .navigation{
+            color: #fff;
+            width: 250px;
+            font-size: 18px;
+            display: flex;  
+            justify-content: space-between;
+        }
+        .navLinks{
+            color: #fff;
+            transition: all 0.2s;
+            padding: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .navLinks:hover{
+            background-color: #2a4646;
+            box-shadow: 0px 0px 25px 1px #27f1b1 ; 
+        }
+
+        .githubPage{
+            display: flex;
+            height: 100%;
+            background-color: #2a4646;
+            padding: 10px;
+            align-items: center;
+            border-radius: 15px;
+            border:1px solid #fff;
+            transition: all 0.2s;
+        }
+
+        .navGitLink{
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .navGitIcon{
+            filter:invert(100%);
+            height: 30px;
+            padding: 0px;        
+            margin-left: 8px;
+        }
+
+        .githubPage:hover{
+            box-shadow: 0px 0px 25px 1px #27f1b1 ;
+        }
+
+    .canvas{
+        display: flex;
+        flex: 1;
+        column-gap: 30px;
+    }
+
+        .sideBar{
+            display: flex;
+            width: 420px;
+        }
+
+            .pixelSide{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: 95%;
+                border-radius: 15px;
+                filter: brightness(90%);
+                border: 2px #2a4646 solid;
+            }
+
+
+
+        .contentPage{
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            row-gap: 30px;
+
+        }
+            .personalInfo{
+                background-color: #1A1A1E;  
+                border: 2px #2a4646 solid;
+                border-radius: 15px;  
+                padding: 30px 50px;
+                display: flex;
+                flex: 2;
+                align-content: space-between;
+                flex-direction: column;
+            }
+
+            .greet{
+                font-size: 18px;
+                color: #d3d3d3;
+                margin-bottom: 5px 0px;
+            }
+
+            .details{
+                font-size: 50px;
+                line-height: 65px;
+                font-weight: 400;
+                color: #fff;
+                margin: 15px 0px;
+                margin-left: -3px;
+            }
+
+            .bio{
+                color:#f0f0f0;
+                font-size: 20px;
+                margin: 5px 0px;
+            }
+
+            .contact{
+                display: flex;
+                flex-direction: row;
+                margin: 10px 0px;
+                flex: 1;
+                align-items: end;
+            }
+
+
+            .link{
+                display: flex;
+                flex-direction: column;
+                width: 70px;
+                background-color: #2a4646;
+                height: 70px;
+                padding:15px;
+                margin-right:30px;
+                border:solid 1px #fff;
+                border-radius: 15px;
+                transition: all 0.2s;
+                cursor: pointer;
+            }            
+
+            .link:hover{
+                box-shadow: 0px 0px 25px 1px #27f1b1 ;
+                padding: 13px;
+
+            }            
+            .contactIcon{
+                filter:invert(100%);
+                height: 60px;
+            }
+
+
+
+        .projectContainer{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            background-color: #1A1A1E;  
+            border-radius: 15px;  
+            padding: 30px 50px;
+            border: 2px #2a4646 solid;
+
+        }
+
+        .projectTitle{
+            font-size: 20px;
+            color: #f0f0f0;
+            margin-top: -10px;
+        }
+
+        .projectWrapper{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            flex: 1;
+            padding-top: 20px;
+            column-gap: 15px;
+        }
+
+        .projectBox{
+            flex:1;
+            display: flex;
+            background-color: #2a4646;
+            border-radius: 15px;
+            flex-direction: column;
+            border:#fff 1px solid;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .projectBox:hover{
+            box-shadow: 0px 0px 15px 1px #27f1b1 ;            
+        }
+
+        .projectLink{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            text-decoration: none;
+            color: #fff;
+            font-size: 20px;
+            align-items: start;
+            padding: 35px 15px;
+            
+
+        }
+
+        .projName{
+            padding: 10px 0px;
+            color: #d3d3d3;
+            font-size: 15px;
+        }

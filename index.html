@@ -1,55 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">  
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TopicTap</title>
-  <link rel="stylesheet" href="./CSS/HomePage.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron's Workshop</title>
+
+    <link rel="stylesheet" href="./02 CSS/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 </head>
-<body> 
-<div class="canvas">
+<body>
+    <div class="mainBody"> 
+        <div class="header">
+            <a href="index.html" class="logo">
+                <img src="./resources/aaron-logo.png" alt="" class="aaronLogo">
+            </a>
 
-<div class="header">
-</div>
+            <div class="navigation">
+                <a href="index.html" class="navLinks"> Home </a>
+                <a href="./01 HTML/about.html" class="navLinks"> About </a>
+                <a href="./01 HTML/contact.html" class="navLinks"> Contact</a>
+            </div>
+
+            <div>
+            <a href="https://github.com/Aaron-DelosReyes" target="_blank" class="githubPage">
+                <p class="navGitLink">Github Repo</p>
+             <img src="./resources/github.png" alt="" class="navGitIcon">
+            </a>
+            </div>
+
+        </div>
+
+        <div class="canvas">
+            <div class="sideBar">
+                <img src="./resources/ryan-haight-thorton-creek-large.gif" alt="" class="pixelSide">
 
 
-<div class="body">  
-  <div class="logo-section">
-    <img src="./Images/Topic-Tap-Main-Logo.png" alt="TopicTapLogo" class="logo">  
-  </div>
+            </div>
 
-    <div class="search-box">
-      <div class="row"> 
-        <input type="text" id="input-box" placeholder="Type the SHS core subjects here" autocomplete="off"> <button> 
-          <i class='bx bx-search-alt-2'></i>
-        </button>
-      </div>
-        <div class="result-box">
+            <div class="contentPage">
+                <div class="personalInfo">
+                    <div class="greet"> 
+                        <p>
+                            Hi there!
+                        </p>
+                    </div>
+                    <div class="details"> 
+                        <p>
+                            I'm Aaron Delos Reyes, a first-year BSIT student who has a knack for creating things!
+                        </p>
+                    </div>
 
+                    <div class="bio"> 
+                        <p class="bioText">Picking up new skills slowly, steadily, and never without coffee.</p>
+                    </div>
+                    <div class="contact">
+                            <a href="https://www.facebook.com/profile.php?id=100090790033548" target="_blank" class="link">
+                                <img src="./resources/facebook.png" alt="" class="contactIcon">
+                            </a>
+                        
+                            <a href="https://www.instagram.com/ron_dreyes/" target="_blank" class="link">
+                                <img src="./resources/instagram.png" alt="" class="contactIcon">
+                            </a>    
+                        
+                            <a href="https://github.com/Aaron-DelosReyes" target="_blank" class="link">
+                                <img src="./resources/github (1).png" alt="" class="contactIcon">
+                            </a>
+      
+                    </div>
+                </div>
+
+                <div class="projectContainer">
+                    <div class="projectTitle">
+                        <p>
+                            CS 1130 | Web Projects
+                        </p>
+                    </div>
+                    
+                    <div class="projectWrapper">
+
+                        
+                        <div class="projectBox" href="./01 HTML/assignment-1.html">
+                            <a href="./01 HTML/assignment-1.html" class="projectLink"> Assignment 1
+                            <p class="projName">Temperature & Distance Converter</p> </a>
+                        </div>
+
+                        <div class="projectBox">
+                            <a href="./01 HTML/assignment-2.html" class="projectLink"> Assignment 2
+                            <p class="projName">Income Tax Program</p> </a>
+                        </div>
+                        
+                        <div class="projectBox">
+                            <a href="./01 HTML/assignment-3.html" class="projectLink"> Assignment 3
+                            <p class="projName">Factorial, Sum & Average</p> </a>
+                        </div>
+                        
+                        <div class="projectBox">
+                            <a href="./01 HTML/assignment-4.html" class="projectLink"> Assignment 4
+                           <p class="projName">Basic Payroll System</p> </a>
+                        </div>     
+
+                    </div>     
+                </div>
+            </div>
         </div>
     </div>
 
-
-
-
-</div>
-
-<div class="footer">
-
-    </div>
-
-
-    </div>
-
-
-    </div>
-</div>
-
-</div>
-
-
-  <script src="./JavaScript/indexSearchBar.js"></script>
 </body>
 </html>
